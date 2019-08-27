@@ -17,8 +17,10 @@ class Jumbotron extends React.Component{
         });
 
         window.addEventListener('load', function(){
-            slogan.style.right = '0';
-            logo.style.right = '0';
+           setTimeout(() => {
+                slogan.style.right = '0';
+                logo.style.right = '0';
+           }, 1000) 
         });
     }
 

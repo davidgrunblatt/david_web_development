@@ -1,0 +1,22 @@
+.article_one, .article_two {
+    margin-top:40px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    text-align:center;
+    height: 400px;
+    .article_img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .article_one, .article_two {
+        display:flex;
+        flex-direction: column;
+    
+        .article_img {
+            width: 300px;
+        }
+    }
+}

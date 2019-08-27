@@ -132,12 +132,12 @@
 
 .bottom-nav a:hover {
   text-decoration: none;
-  color: #ff9900;
+  color: #ff7b00;
   font-weight: 700;
   -webkit-transition-property: color, font-weight;
   transition-property: color, font-weight;
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 @media screen and (max-width: 1023px) {
