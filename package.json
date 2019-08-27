@@ -1,0 +1,20 @@
+{
+  "name": "davidwebdevelopment",
+  "version": "1.0.0",
+  "description": "Homepage",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "David G.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.0"
+  }
+}
