@@ -162,5 +162,8 @@
   .nav-bar div:nth-child(2) img {
     display: none;
   }
+  .bottom-nav a:hover {
+    text-decoration: none;
+  }
 }
 /*# sourceMappingURL=jumbo.css.map */
