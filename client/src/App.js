@@ -81,13 +81,13 @@ class App extends React.Component{
                     links[0].style.color = 'black'; 
             }
 
-            // NAV ITEMS HIGHLIGH
+            // NAV ITEMS HIGHLIGHT
             if (document.documentElement.scrollTop > 2100 || document.body.scrollTop > 2100){
                 links[2].style.color = "rgb(255, 123, 0)"; 
                 links[0].style.color = "black"; 
                 links[1].style.color = "black"; 
              }
-
+             // NAV ITEMS HIGHLIGHT
              if (document.documentElement.scrollTop > 2800 || document.body.scrollTop > 2800){
                 links[2].style.color = 'black'
                 links[0].style.color = "black"; 
