@@ -42,7 +42,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  background-color: #f5b6a7;
+  background-color: rgba(245, 182, 167, 0.8);
   z-index: 1;
 }
 
@@ -88,7 +88,7 @@
 }
 
 #jumbotron .nav-bar div:nth-child(1) span h3 {
-  border-bottom: solid thin white;
+  border-bottom: solid 3px white;
 }
 
 #jumbotron .nav-bar div:nth-child(even) {
@@ -136,16 +136,16 @@
 
 .bottom-nav a:hover {
   text-decoration: none;
-  color: #ff7b00;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ff7b00;
+          text-decoration-color: #ff7b00;
   font-weight: 700;
-  -webkit-transition-property: color, font-weight;
-  transition-property: color, font-weight;
+  -webkit-transition-property: font-weight, -webkit-text-decoration;
+  transition-property: font-weight, -webkit-text-decoration;
+  transition-property: font-weight, text-decoration;
+  transition-property: font-weight, text-decoration, -webkit-text-decoration;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
-}
-
-.bottom-nav-scroll {
-  height: 50px;
 }
 
 @media screen and (max-width: 1023px) {

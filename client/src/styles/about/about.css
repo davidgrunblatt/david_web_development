@@ -1,6 +1,8 @@
 .about_img {
-  width: 150px;
+  width: 70px;
   border: solid thin white;
+  float: right;
+  padding: 3px;
 }
 
 .about_item {
@@ -18,7 +20,6 @@
 
 .about_item p {
   padding: 0px 300px;
-  text-align: center;
 }
 
 .about_skills {
@@ -38,8 +39,12 @@
   font-weight: bold;
 }
 
+.about_skills div:nth-child(1) {
+  width: 30%;
+}
+
 .about_fullstack {
-  width: 300px;
+  width: 320px;
 }
 
 .github {
@@ -55,9 +60,10 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .about_item p {
-    padding: 10px;
+    padding: 0px 60px;
+    margin-bottom: -20px;
   }
   .about_skills {
     -webkit-box-orient: vertical;
@@ -67,9 +73,33 @@
   }
   .about_skills div:nth-child(1) {
     padding: 10px;
+    width: 90%;
   }
   .about_skills div:nth-child(1) h5 {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about_item p {
+    padding: 10px;
+    margin-bottom: -20px;
+  }
+  .about_skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about_skills div:nth-child(1) {
+    padding: 10px;
+    width: 100%;
+  }
+  .about_skills div:nth-child(1) h5 {
+    text-align: center;
+  }
+  .about_fullstack {
+    margin: 10px auto;
   }
 }
 /*# sourceMappingURL=about.css.map */

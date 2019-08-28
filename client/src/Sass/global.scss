@@ -27,12 +27,6 @@ $orange: rgb(255, 123, 0);
     font-weight: 700;
 }
 
-html {
-    scroll-behavior: smooth;
-    // display:none;
-}
-
-
 // FX == FX == FX == FX 
 
 .out {
@@ -43,4 +37,24 @@ html {
     opacity: 1.0;
     transition-property:opacity;
     transition-duration: 2s;
+}
+
+// END FX == END FX
+
+#portfolio {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.construction {
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width: 767px){
+    .construction{
+        width: 200px;
+        height: 200px;
+    }
 }

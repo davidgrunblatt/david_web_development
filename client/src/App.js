@@ -1,4 +1,5 @@
 import React from 'react';
+import Scrollchor from 'react-scrollchor'; 
 
 // STYLES == STYLES
 import 'bootstrap/dist/css/bootstrap.css'; 
@@ -14,6 +15,7 @@ import Nav from './components/Nav';
 import Articles from './components/Articles';
 import About from './components/About'; 
 import Contact from './components/Contact'; 
+import Work from './components/Work'; 
 
 // IMAGES == IMAGES
 import logo from './images/logo.png'; 
@@ -48,35 +50,49 @@ class App extends React.Component{
         // ARTICLE FADE INS
         const article_items = document.querySelectorAll('.article_item');
         let i = 0;
-        const bottom_nav = document.querySelector('.bottom-nav');
         const about = document.querySelector('#about'); 
+        const links = document.querySelectorAll('.nav-link');
 
         window.addEventListener('scroll', () => {
-            if(document.documentElement.scrollTop >= 1300){
-                bottom_nav.classList.add('bottom-nav-scroll'); 
-            }
-            else {
-                bottom_nav.classList.remove('bottom-nav-scroll'); 
-            }
-        }); 
-
-        window.addEventListener('scroll', () => {
+            // ARTICLE 1 FADE IN
             if (document.documentElement.scrollTop > 600 || document.body.scrollTop > 600){
                 for(i; i < 2; i++){
                     article_items[i].classList.remove('out');
                     article_items[i].classList.add('in');
                 }
             }
+            // ARTICLE 2 FADE IN
             if (document.documentElement.scrollTop > 900 || document.body.scrollTop > 900){
                 for(i = 2; i < 4; i++){
                     article_items[i].classList.remove('out');
                     article_items[i].classList.add('in');
                 }
             }
-            if (document.documentElement.scrollTop > 1300 || document.body.scrollTop > 1300){
+
+            // ABOUT FADE IN == NAV ITEMS HIGHLIGHT
+            if (document.documentElement.scrollTop > 1400 || document.body.scrollTop > 1400){
                     about.classList.remove('out');
                     about.classList.add('in');
+                    links[0].style.color = "rgb(255, 123, 0)"; 
+                    links[1].style.color = 'black';
+                    links[2].style.color = 'black';
+            }   
+            else {
+                    links[0].style.color = 'black'; 
             }
+
+            // NAV ITEMS HIGHLIGH
+            if (document.documentElement.scrollTop > 2100 || document.body.scrollTop > 2100){
+                links[2].style.color = "rgb(255, 123, 0)"; 
+                links[0].style.color = "black"; 
+                links[1].style.color = "black"; 
+             }
+
+             if (document.documentElement.scrollTop > 2800 || document.body.scrollTop > 2800){
+                links[2].style.color = 'black'
+                links[0].style.color = "black"; 
+                links[1].style.color = "rgb(255, 123, 0)"; 
+             }
         })
     }
 
@@ -95,6 +111,7 @@ class App extends React.Component{
                 />
                 <About about_header = {this.state.about_header} headshot = {this.state.david} />
                 <Contact/>
+                <Work /> 
             </div>
         )
     }

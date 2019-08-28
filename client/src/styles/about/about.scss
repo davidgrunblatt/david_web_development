@@ -1,20 +1,20 @@
 $orange: rgb(255, 123, 0);
 
 .about_img {
-    width: 150px;
+    width: 70px;
     border: solid thin white;
+    float:right;
+    padding: 3px;
 }
 
 .about_item{
     display:flex;
     flex-direction: column;
     align-items:center;
-    // for github img
-    // position: relative;
 
     p {
         padding: 0px 300px;
-        text-align:center;
+        // text-align:center;
     }
 }
 
@@ -26,10 +26,16 @@ $orange: rgb(255, 123, 0);
         color: $orange;
         font-weight: bold;
     }
+
+    div:nth-child(1){
+        width: 30%;
+    }
 }
 
+// FULL STACK IMG 
 .about_fullstack {
-    width:300px;
+    width:320px;
+    // margin-bottom:20px;
 }
 
 .github {
@@ -43,9 +49,10 @@ $orange: rgb(255, 123, 0);
     cursor: pointer;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (min-width:768px) and (max-width: 1023px){
     .about_item p {
-        padding: 10px;
+        padding: 0px 60px;
+        margin-bottom: -20px;
     }
 
     .about_skills {
@@ -53,10 +60,35 @@ $orange: rgb(255, 123, 0);
 
         div:nth-child(1){
             padding: 10px;
+            width: 90%;
 
             h5 {
                 text-align:center;
             }
         }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .about_item p {
+        padding: 10px;
+        margin-bottom: -20px;
+    }
+
+    .about_skills {
+        flex-direction: column;
+
+        div:nth-child(1){
+            padding: 10px;
+            width: 100%;
+
+            h5 {
+                text-align:center;
+            }
+        }
+    }
+
+    .about_fullstack {
+        margin: 10px auto;
     }
 }

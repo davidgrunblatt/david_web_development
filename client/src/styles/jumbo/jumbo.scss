@@ -1,5 +1,7 @@
 // JUMBOTRON == JUMBOTRON == JUMBOTRON == JUMBOTRON == JUMBOTRON == JUMBOTRON 
 
+$orange: rgb(255, 123, 0);
+
 #jumbotron {
     height:670px;
     background-image: url('../../images/jumbo.jpg');
@@ -34,7 +36,7 @@
     .sticky {
         position:sticky;
         top:0px;
-        background-color: rgb(245,182,167);
+        background-color: rgba(245,182,167, .8);
         z-index: 1;
     }
 
@@ -65,7 +67,7 @@
                 text-align:center;
     
                 h3{
-                    border-bottom:solid thin white;
+                    border-bottom:solid 3px white;
                 }
             }
         }
@@ -105,18 +107,13 @@
     }
     a:hover{
         text-decoration:none;
-        color:rgb(255, 123, 0);
+        text-decoration: underline;
+        text-decoration-color: rgb(255, 123, 0);
         font-weight:700;
-        transition-property: color, font-weight;
+        transition-property: font-weight, text-decoration;
         transition-duration: .5s;
     }
 }
-
-// BOTTOM NAV SIZE ADJUST ON SCROLL
-.bottom-nav-scroll {
-    height: 50px;
-}
-
 
 // MEDIA QUERIES == MEDIA QUERIES == MEDIA QUERIES == MEDIA QUERIES 
 @media screen and (max-width: 1023px){

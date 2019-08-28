@@ -23,10 +23,6 @@
   font-weight: 700;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .out {
   opacity: 0;
 }
@@ -37,5 +33,29 @@ html {
   transition-property: opacity;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
+}
+
+#portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.construction {
+  width: 400px;
+  height: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  .construction {
+    width: 200px;
+    height: 200px;
+  }
 }
 /*# sourceMappingURL=global.css.map */
