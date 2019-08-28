@@ -55,14 +55,14 @@ class App extends React.Component{
 
         window.addEventListener('scroll', () => {
             // ARTICLE 1 FADE IN
-            if (document.documentElement.scrollTop > 600 || document.body.scrollTop > 600){
+            if (document.documentElement.scrollTop > 400 || document.body.scrollTop > 400){
                 for(i; i < 2; i++){
                     article_items[i].classList.remove('out');
                     article_items[i].classList.add('in');
                 }
             }
             // ARTICLE 2 FADE IN
-            if (document.documentElement.scrollTop > 900 || document.body.scrollTop > 900){
+            if (document.documentElement.scrollTop > 600 || document.body.scrollTop > 600){
                 for(i = 2; i < 4; i++){
                     article_items[i].classList.remove('out');
                     article_items[i].classList.add('in');
