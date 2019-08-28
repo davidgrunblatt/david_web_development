@@ -49,13 +49,13 @@
 
 .construction {
   width: 400px;
-  height: 400px;
+  height: 300px;
 }
 
 @media screen and (max-width: 767px) {
   .construction {
     width: 200px;
-    height: 200px;
+    height: 150px;
   }
 }
 /*# sourceMappingURL=global.css.map */
