@@ -62,7 +62,7 @@ class App extends React.Component{
                 }
             }
             // ARTICLE 2 FADE IN
-            if (document.documentElement.scrollTop > 600 || document.body.scrollTop > 600){
+            if (document.documentElement.scrollTop > 800 || document.body.scrollTop > 800){
                 for(i = 2; i < 4; i++){
                     article_items[i].classList.remove('out');
                     article_items[i].classList.add('in');
