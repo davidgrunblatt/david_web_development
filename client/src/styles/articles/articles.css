@@ -17,7 +17,7 @@
   width: 500px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .article_one, .article_two {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -26,6 +26,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 10px;
   }
   .article_one .article_img, .article_two .article_img {
     width: 300px;

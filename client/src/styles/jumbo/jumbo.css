@@ -123,6 +123,10 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .bottom-nav a {
@@ -138,6 +142,10 @@
   transition-property: color, font-weight;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
+}
+
+.bottom-nav-scroll {
+  height: 50px;
 }
 
 @media screen and (max-width: 1023px) {

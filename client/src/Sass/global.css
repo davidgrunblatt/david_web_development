@@ -7,11 +7,24 @@
   background: #F7F7F7;
   -webkit-box-shadow: 0px 2px 2px silver;
           box-shadow: 0px 2px 2px silver;
-  margin-bottom: 20px;
+}
+
+.margin {
+  margin: 40px auto;
 }
 
 .header {
   width: 230px;
+}
+
+.btn {
+  background: #ff7b00;
+  color: white;
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .out {

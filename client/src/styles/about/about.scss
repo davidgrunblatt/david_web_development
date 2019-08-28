@@ -1,0 +1,62 @@
+$orange: rgb(255, 123, 0);
+
+.about_img {
+    width: 150px;
+    border: solid thin white;
+}
+
+.about_item{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    // for github img
+    // position: relative;
+
+    p {
+        padding: 0px 300px;
+        text-align:center;
+    }
+}
+
+.about_skills {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    span {
+        color: $orange;
+        font-weight: bold;
+    }
+}
+
+.about_fullstack {
+    width:300px;
+}
+
+.github {
+    width: 50px;
+    transition-property: border-radius;
+    transition-duration: 2s;
+}
+
+.github:hover {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px){
+    .about_item p {
+        padding: 10px;
+    }
+
+    .about_skills {
+        flex-direction: column;
+
+        div:nth-child(1){
+            padding: 10px;
+
+            h5 {
+                text-align:center;
+            }
+        }
+    }
+}

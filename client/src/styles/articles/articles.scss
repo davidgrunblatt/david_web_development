@@ -10,10 +10,11 @@
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1023px){
     .article_one, .article_two {
         display:flex;
         flex-direction: column;
+        padding: 10px;
     
         .article_img {
             width: 300px;

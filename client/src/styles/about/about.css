@@ -1,0 +1,75 @@
+.about_img {
+  width: 150px;
+  border: solid thin white;
+}
+
+.about_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_item p {
+  padding: 0px 300px;
+  text-align: center;
+}
+
+.about_skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_skills span {
+  color: #ff7b00;
+  font-weight: bold;
+}
+
+.about_fullstack {
+  width: 300px;
+}
+
+.github {
+  width: 50px;
+  -webkit-transition-property: border-radius;
+  transition-property: border-radius;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.github:hover {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .about_item p {
+    padding: 10px;
+  }
+  .about_skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about_skills div:nth-child(1) {
+    padding: 10px;
+  }
+  .about_skills div:nth-child(1) h5 {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=about.css.map */
