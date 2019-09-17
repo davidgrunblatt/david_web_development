@@ -1,8 +1,10 @@
 #contact {
     display:flex;
     align-items:center;
+    justify-content: center;
     flex-direction: column;
     padding: 40px;
+    margin-bottom: 300px;
 
     form {
         width: 30%;
@@ -12,5 +14,11 @@
 @media screen and (max-width: 767px){
     #contact form {
         width: 70%;
+    }
+}
+
+@media screen and (min-width:2559px){
+    #contact {
+        height: 700px;
     }
 }

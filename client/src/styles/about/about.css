@@ -102,4 +102,21 @@
     margin: 10px auto;
   }
 }
+
+@media screen and (min-width: 2560px) {
+  #about {
+    padding: 100px;
+  }
+  .about_item {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1439px) and (max-width: 2559px) {
+  .about_item {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=about.css.map */

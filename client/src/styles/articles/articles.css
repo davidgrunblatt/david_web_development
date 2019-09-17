@@ -32,4 +32,13 @@
     width: 300px;
   }
 }
+
+@media screen and (min-width: 2559px) {
+  .article_one, .article_two {
+    height: 700px;
+  }
+  .article_one .article_img, .article_two .article_img {
+    width: 600px;
+  }
+}
 /*# sourceMappingURL=articles.css.map */

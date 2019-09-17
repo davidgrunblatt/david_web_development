@@ -21,3 +21,13 @@
         }
     }
 }
+
+@media screen and (min-width: 2559px){
+    .article_one, .article_two {
+        height: 700px;
+
+        .article_img {
+            width: 600px;
+        }
+    }
+}

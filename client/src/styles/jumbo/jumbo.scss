@@ -19,7 +19,7 @@ $orange: rgb(255, 123, 0);
         margin-top:160px;
         justify-content: center;
         position: relative;
-        right:1000px;
+        right:2000px;
         transition-property: right;
         transition-delay: 1s;
         transition-duration: 1s;
@@ -141,4 +141,14 @@ $orange: rgb(255, 123, 0);
     .bottom-nav a:hover {
         text-decoration:none;
     }
+}
+
+@media screen and (min-width: 2559px){
+    #jumbotron {
+        height: 1400px;
+    }
+    .slogan {
+        margin-top: 600px !important;
+    }
+
 }

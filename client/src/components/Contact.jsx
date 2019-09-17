@@ -52,20 +52,19 @@ class Contact extends Component{
     render(){
             return(
                 <div id = 'contact' className = 'silver margin'>
-    
                     {this.state.sent === false ? <img className = 'header' src = {contact_header} alt = 'contact header' /> : <h1>Sent!</h1>}
 
                     <form id = 'form' onSubmit = {this.makePostReq}>
                        <div className = 'form-group'>
-                            <label htmlFor = 'name'>Name:</label>
+                            <label htmlFor = 'name' style = {{fontWeight: 'bold'}}>Name:</label>
                             <input type = 'text' name = 'name' onChange = {this.handleChange} className = 'form-control' value = {this.state.name} required/>
                        </div>
                        <div className = 'form-group'>
-                            <label htmlFor = 'subject'>subject:</label>
+                            <label htmlFor = 'subject' style = {{fontWeight: 'bold'}}>Subject:</label>
                             <input type = 'text' name = 'subject' onChange = {this.handleChange} className = 'form-control' value = {this.state.subject} required/>
                        </div>
                        <div className = 'form-group'>
-                            <label htmlFor = 'message'>message:</label>
+                            <label htmlFor = 'message' style = {{fontWeight: 'bold'}}>Message:</label>
                             <textarea type = 'text' name = 'message' onChange = {this.handleChange} className = 'form-control' value = {this.state.message} required></textarea>
                        </div>
                         <button type = 'submit' className = 'btn btn-sm btn-block'>{this.state.sent === true ? "Sent!" : "Send"}</button>
