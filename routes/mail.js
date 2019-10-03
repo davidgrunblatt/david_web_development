@@ -32,6 +32,8 @@ router.post('/', (req,res) => {
           </p>` // html body
     });
 
+    console.log(`Sent!`); 
+
 }); 
 
 module.exports = router; 
