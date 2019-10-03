@@ -22,9 +22,9 @@ class About extends React.Component{
                 <div className = 'about_skills margin'>
                     <div>
                         <h5>Skills</h5>
-                        <p><span>Front End:</span> HTML, CSS, SASS, Bootstrap, Responsive Design, Javascript, React.js, AJAX</p>
-                        <p><span>Back End:</span> Node.js, Express.js, restful API, Unit Testing, MongoDB, mySQL</p>
-                        <p><span>Other tools:</span> GIT, Heroku, AdobeXD, Wireframing, Sockets.io</p>
+                        <p><span>Front End:</span> HTML, CSS, SASS, Responsive Design, Bootstrap, jQuery, Javascript, React.js, AJAX</p>
+                        <p><span>Back End:</span> Node.js, Express.js, RESTful APIs, MongoDB</p>
+                        <p><span>Other Skills / Tools:</span> GIT, Heroku, Unit Testing, AdobeXD, Prototyping</p>
                         <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
                             <img className = 'github shadow' src = {github} alt = 'github icon' />
                         </a>

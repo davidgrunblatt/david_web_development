@@ -50,6 +50,8 @@
 .construction {
   width: 400px;
   height: 300px;
+  margin-top: 200px;
+  margin-bottom: 300px;
 }
 
 @media screen and (max-width: 767px) {

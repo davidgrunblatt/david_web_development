@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 1023px) {
   #jumbotron {
-    background-position: center;
+    background-position: top;
   }
   #jumbotron .slogan {
     margin-top: 140px;
@@ -167,9 +167,16 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
   #jumbotron {
-    height: 1400px;
+    background-position: top;
+  }
+}
+
+@media screen and (min-width: 1501px) {
+  #jumbotron {
+    background-position: top;
+    height: 1300px;
   }
   .slogan {
     margin-top: 600px !important;
