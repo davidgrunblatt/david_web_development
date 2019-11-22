@@ -67,3 +67,10 @@ $orange: rgb(255, 123, 0);
     //     height: 700px;
     // }
 }
+
+@media screen and (min-width: 2560px){
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
