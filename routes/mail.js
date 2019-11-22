@@ -32,8 +32,6 @@ router.post('/', (req,res) => {
                   message: ${new_user.message}
               </p>` // html body
         });
-    
-        console.log(`Sent!`); 
     }
     catch (err) {
         console.log("ERROR SENDING EMAIL", err); 

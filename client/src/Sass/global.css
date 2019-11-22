@@ -62,7 +62,7 @@
 }
 
 @media screen and (min-width: 2560px) {
-  body {
+  #root {
     width: 80%;
     margin: 0 auto;
   }

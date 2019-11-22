@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'; 
 import contact_header from '../images/contact.png'; 
+import Joi from 'joi-browser'; 
 
 class Contact extends Component{
     constructor(props){
@@ -21,7 +22,6 @@ class Contact extends Component{
     }
 
     zeroOut(){
-        console.log('zeroed'); 
         this.setState({ name: ''} );
         this.setState({ subject: ''} );
         this.setState({ message: ''} );
@@ -31,22 +31,45 @@ class Contact extends Component{
         }, 5000);
     }
 
+    validateData(data){
+        const schema = {
+            name: Joi.string().min(5).max(50).required(),
+            subject: Joi.string().min(5).max(250).required(),
+            message: Joi.string().min(5).required()
+        }
+        console.log('val funk', data); 
+
+        return Joi.validate(data, schema); 
+    }
+
     async makePostReq(e){
         e.preventDefault(); 
 
-        this.zeroOut(); 
-        const { name, subject, message } = this.state; 
-        const data = await axios.post('/api/mail', {
-            name,
-            subject,
-            message
-          })
-          .then(response => {
-            console.log(response);
-          })
-          .catch(error => {
-            console.log(error);
-          });
+        // JOI VALIDATION 
+        const stuff = {
+            name: this.state.name,
+            subject: this.state.subject,
+            message: this.state.message
+        }
+        const error = this.validateData(stuff); 
+        if (error.error) {
+            alert('Your name and subject should be atleast 5 characters long, and your message atleast 10'); 
+        } 
+        else {
+            this.zeroOut(); 
+            const { name, subject, message } = this.state; 
+            const data = await axios.post('/api/mail', {
+                name,
+                subject,
+                message
+            })
+            .then(response => {
+                console.log(response);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+        }
     }
 
     render(){
