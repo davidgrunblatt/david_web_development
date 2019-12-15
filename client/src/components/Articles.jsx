@@ -4,7 +4,7 @@ import React from 'react';
 import responsive from '../images/responsive.jpg'; 
 import mern from '../images/mern.jpg'; 
 
-function Articles(){
+function Articles(props){
     return(
         <div id = 'articles_container'>
             <div className = 'article_one'>
