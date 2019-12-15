@@ -1,12 +1,11 @@
 const express = require('express');
 const app = express();
 const mail = require('./routes/mail'); 
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
 app.use('/api/mail', mail); 
-
-const PORT = process.env.PORT || 3001;
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
@@ -17,4 +16,3 @@ app.get('/', (req,res) => {
 });
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`)); 
-

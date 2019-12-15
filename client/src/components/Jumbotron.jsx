@@ -2,11 +2,13 @@ import React from 'react';
 
 class Jumbotron extends React.Component{
 
+    // COMPONENT DID MOUNT 
     componentDidMount(){
         const nav = document.querySelector('.nav-bar');
         const slogan = document.querySelector('.slogan');
         const logo = document.querySelector('.nav-bar div:nth-child(1)');
 
+        // NAVBAR ON SCROLL LISTENER
         window.addEventListener('scroll', function(){
             if(document.documentElement.scrollTop > 10 || document.body.scrollTop > 10){
                 nav.classList.add('sticky');
@@ -16,6 +18,7 @@ class Jumbotron extends React.Component{
             }
         });
 
+        // SLOGAN ON LOAD LISTENER
         window.addEventListener('load', function(){
            setTimeout(() => {
                 slogan.style.right = '0';

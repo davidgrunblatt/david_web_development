@@ -17,10 +17,12 @@ class Contact extends Component{
         this.makePostReq = this.makePostReq.bind(this);
     }
 
+    // HANDLE INPUT CHANGE
     handleChange(e){
         this.setState({ [e.target.name]: e.target.value }); 
     }
 
+    // ZERO OUT FORM ON SETTIMEOUT
     zeroOut(){
         this.setState({ name: ''} );
         this.setState({ subject: ''} );
@@ -31,17 +33,17 @@ class Contact extends Component{
         }, 5000);
     }
 
+    // JOI INPUT VALIDATION 
     validateData(data){
         const schema = {
             name: Joi.string().min(5).max(50).required(),
             subject: Joi.string().min(5).max(250).required(),
             message: Joi.string().min(5).required()
         }
-        console.log('val funk', data); 
-
         return Joi.validate(data, schema); 
     }
 
+    // POST REQ W/ AXIOS METHOD
     async makePostReq(e){
         e.preventDefault(); 
 
@@ -55,20 +57,25 @@ class Contact extends Component{
         if (error.error) {
             alert('Your name and subject should be atleast 5 characters long, and your message atleast 10'); 
         } 
-        else {
-            this.zeroOut(); 
-            const { name, subject, message } = this.state; 
-            const data = await axios.post('/api/mail', {
-                name,
-                subject,
-                message
-            })
-            .then(response => {
-                console.log(response);
-            })
-            .catch(error => {
-                console.log(error);
-            });
+
+        try {   // AXIOS POST REQ
+                this.zeroOut(); 
+                const { name, subject, message } = this.state; 
+                const data = await axios.post('/api/mail', {
+                    name,
+                    subject,
+                    message
+                })
+                .then(response => {
+                    console.log(response);
+                })
+                .catch(error => {
+                    console.log(error);
+                });
+            }
+
+        catch(ex){
+            console.log('Excemption sending React post req'); 
         }
     }
 
