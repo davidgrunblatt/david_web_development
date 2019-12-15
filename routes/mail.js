@@ -33,6 +33,8 @@ router.post('/', async (req,res) => {
                   message: ${new_user.message}
               </p>` // html body
         });
+
+        console.log('Message Sent!');
     }
     catch (err) {
         console.log("ERROR SENDING EMAIL", err); 
