@@ -3,16 +3,17 @@ const router = express.Router();
 const nodemailer = require('nodemailer'); 
 
 
-router.post('/', (req,res) => {
+router.post('/', async (req,res) => {
+
+    const new_user = {
+        name: req.body.name,
+        subject: req.body.subject,
+        message: req.body.message
+    }
+
     try {
-        const new_user = {
-            name: req.body.name,
-            subject: req.body.subject,
-            message: req.body.message
-        }
-    
         // create reusable transporter object using the default SMTP transport
-        let transporter = nodemailer.createTransport({
+        let transporter = await nodemailer.createTransport({
         host: "smtp.gmail.com",
         port: 587,
         secure: false, // true for 465, false for other ports
@@ -23,7 +24,7 @@ router.post('/', (req,res) => {
         });
     
         // send mail with defined transport object
-        let info = transporter.sendMail({
+        let info = await transporter.sendMail({
         from: new_user.name, // sender address
         to: "dpg1919@gmail.com", // list of receivers
         subject: new_user.subject, // Subject line

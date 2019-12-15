@@ -54,6 +54,7 @@ class App extends React.Component{
         const links = document.querySelectorAll('.nav-link');
 
         window.addEventListener('scroll', () => {
+            console.log(window.scrollY); 
             // ARTICLE 1 FADE IN
             if (document.documentElement.scrollTop > 400 || document.body.scrollTop > 400){
                 for(i; i < 2; i++){

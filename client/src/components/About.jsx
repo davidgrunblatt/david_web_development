@@ -3,40 +3,36 @@ import fullstack_img from '../images/full-stack-development.jpg';
 import github from '../images/github.png'; 
 
 
-class About extends React.Component{
-    render(){
-        return(
-            <div id = 'about' className = 'margin out'>
-                <div className = 'about_item'>
-                    <img className = 'header' src = {this.props.about_header} alt = 'logo'/>
-                    <p>
-                        My name is David Grunblatt and I'm a web developer living in Los Angeles, Ca. <br/>
-                        I'm passionate about learning and constantly trying to expand my skillset. I take great
-                        care in hand crafting my apps meticulously from wireframes all the way to deployment. <br/>
-                        <br/>
-                        When I'm not writing code I'm working on my hobbies. My other two passions in life aside from web development
-                        are rock climbing and playing finger style guitar. Like with coding I take great pride in working on and
-                        enhancing my skills.
-                    </p>
+function About(){
+    <div id = 'about' className = 'margin out'>
+            <div className = 'about_item'>
+                <img className = 'header' src = {this.props.about_header} alt = 'logo'/>
+                <p>
+                    My name is David Grunblatt and I'm a web developer living in Los Angeles, Ca. <br/>
+                    I'm passionate about learning and constantly trying to expand my skillset. I take great
+                    care in hand crafting my apps meticulously from wireframes all the way to deployment. <br/>
+                    <br/>
+                    When I'm not writing code I'm working on my hobbies. My other two passions in life aside from web development
+                    are rock climbing and playing finger style guitar. Like with coding I take great pride in working on and
+                    enhancing my skills.
+                </p>
+            </div>
+            <div className = 'about_skills margin'>
+                <div>
+                    <h5>Skills</h5>
+                    <p><span>Languages:</span> JavaScript, Python</p>
+                    <p><span>Front End:</span> HTML, CSS, SASS, Responsive Design, Bootstrap, JavaScript, RESTful APIs, React.js, Redux</p>
+                    <p><span>Back End:</span> Node.js, Express.js, MongoDB, SQL</p>
+                    <p><span>Other Skills / Tools:</span> GIT, Heroku, AdobeXD, Prototyping</p>
+                    <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
+                        <img className = 'github shadow' src = {github} alt = 'github icon' />
+                    </a>
                 </div>
-                <div className = 'about_skills margin'>
-                    <div>
-                        <h5>Skills</h5>
-                        <p><span>Languages:</span> JavaScript, Python</p>
-                        <p><span>Front End:</span> HTML, CSS, SASS, Responsive Design, Bootstrap, JavaScript, RESTful APIs, React.js, Redux</p>
-                        <p><span>Back End:</span> Node.js, Express.js, Django, MongoDB, SQL</p>
-                        <p><span>Other Skills / Tools:</span> GIT, Heroku, AdobeXD, Prototyping</p>
-                        <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
-                            <img className = 'github shadow' src = {github} alt = 'github icon' />
-                        </a>
-                    </div>
-                    <div>
-                        <img className = 'about_fullstack' src = {fullstack_img} alt = 'fullstack icon'/> 
-                    </div>
+                <div>
+                    <img className = 'about_fullstack' src = {fullstack_img} alt = 'fullstack icon'/> 
                 </div>
             </div>
-        )
-    }
+    </div>
 }
 
 export default About; 
