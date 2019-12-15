@@ -1,5 +1,4 @@
 import React from 'react';
-import Scrollchor from 'react-scrollchor'; 
 
 // STYLES == STYLES
 import 'bootstrap/dist/css/bootstrap.css'; 

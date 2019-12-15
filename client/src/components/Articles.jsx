@@ -4,13 +4,13 @@ import React from 'react';
 import responsive from '../images/responsive.jpg'; 
 import mern from '../images/mern.jpg'; 
 
-function Articles(props){
+const Articles = (props) => {
     return(
         <div id = 'articles_container'>
             <div className = 'article_one'>
                 <div className = 'article_item out'>
-                    <img className = 'header' src = {this.props.r_header} alt = 'logo'/>
-                    <p>{this.props.r_string}</p>
+                    <img className = 'header' src = {props.r_header} alt = 'logo'/>
+                    <p>{props.r_string}</p>
                 </div>
                 <div className = 'article_item out'>
                     <img className = 'article_img' src = {responsive} alt = 'responsive design screens' />
@@ -21,8 +21,8 @@ function Articles(props){
                     <img className = 'article_img' src = {mern} alt = 'javascript icons' />
                 </div>
                 <div className = 'article_item out'>
-                    <img className = 'header' src = {this.props.js_header} alt = 'logo'/>
-                    <p>{this.props.js_string}</p>
+                    <img className = 'header' src = {props.js_header} alt = 'logo'/>
+                    <p>{props.js_string}</p>
                 </div>
             </div>
         </div>

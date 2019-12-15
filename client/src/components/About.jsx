@@ -3,11 +3,11 @@ import fullstack_img from '../images/full-stack-development.jpg';
 import github from '../images/github.png'; 
 
 
-function About(){
+const About = (props) => {
    return(
         <div id = 'about' className = 'margin out'>
             <div className = 'about_item'>
-                <img className = 'header' src = {this.props.about_header} alt = 'logo'/>
+                <img className = 'header' src = {props.about_header} alt = 'logo'/>
                 <p>
                     My name is David Grunblatt and I'm a web developer living in Los Angeles, Ca. <br/>
                     I'm passionate about learning and constantly trying to expand my skillset. I take great
@@ -23,7 +23,7 @@ function About(){
                     <h5>Skills</h5>
                     <p><span>Languages:</span> JavaScript, Python</p>
                     <p><span>Front End:</span> HTML, CSS, SASS, Responsive Design, Bootstrap, JavaScript, RESTful APIs, React.js, Redux</p>
-                    <p><span>Back End:</span> Node.js, Express.js, MongoDB, SQL</p>
+                    <p><span>Back End:</span> Node.js, Express.js, MongoDB, mySQL</p>
                     <p><span>Other Skills / Tools:</span> GIT, Heroku, AdobeXD, Prototyping</p>
                     <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
                         <img className = 'github shadow' src = {github} alt = 'github icon' />
