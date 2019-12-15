@@ -72,7 +72,7 @@ class Contact extends Component{
                 .catch(error => {
                     console.log(error);
                 });
-            }
+        }
 
         catch(ex){
             console.log('Excemption sending React post req'); 

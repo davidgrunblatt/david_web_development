@@ -11,8 +11,4 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-app.get('/', (req,res) => {
-    res.send('working');
-});
-
 app.listen(PORT, () => console.log(`listening on port ${PORT}`)); 
