@@ -4,7 +4,8 @@ import github from '../images/github.png';
 
 
 function About(){
-    <div id = 'about' className = 'margin out'>
+   return(
+        <div id = 'about' className = 'margin out'>
             <div className = 'about_item'>
                 <img className = 'header' src = {this.props.about_header} alt = 'logo'/>
                 <p>
@@ -32,7 +33,8 @@ function About(){
                     <img className = 'about_fullstack' src = {fullstack_img} alt = 'fullstack icon'/> 
                 </div>
             </div>
-    </div>
+        </div>
+   )
 }
 
 export default About; 
