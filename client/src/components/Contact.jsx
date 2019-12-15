@@ -56,6 +56,8 @@ class Contact extends Component{
         const error = this.validateData(stuff); 
         if (error.error) {
             alert('Your name and subject should be atleast 5 characters long, and your message atleast 10'); 
+            this.setState({ sent: false });
+            return; 
         } 
 
         try {   // AXIOS POST REQ
