@@ -7,6 +7,7 @@ import './styles/jumbo/jumbo.css';
 import './styles/articles/articles.css';
 import './styles/about/about.css'; 
 import './styles/contact/contact.css'; 
+import './styles/work/work.css'; 
 
 // COMPONENTS == COMPONENTS
 import Jumbotron from './components/Jumbotron'; 

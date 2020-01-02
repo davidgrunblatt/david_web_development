@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+#root {
+    overflow-y: hidden;
+    font-family: sans-serif;
+}
+
 $silver_background: #F7F7F7;
 $orange: rgb(255, 123, 0);
 
@@ -40,27 +45,6 @@ $orange: rgb(255, 123, 0);
 }
 
 // END FX == END FX
-
-#portfolio {
-    display:flex;
-    justify-content: center;
-    align-items:center;
-}
-
-.construction {
-    width: 400px;
-    height: 300px;
-    margin-top: 200px;
-    margin-bottom: 300px;
-}
-
-// MEDIA QUERIES
-@media screen and (max-width: 767px){
-    .construction{
-        width: 200px;
-        height: 150px;
-    }
-}
 
 @media screen and (min-width: 2560px){
     #root {
