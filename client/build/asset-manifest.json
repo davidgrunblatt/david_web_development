@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.938b1d7d.chunk.css",
-    "main.js": "/static/js/main.ec966aa2.chunk.js",
-    "main.js.map": "/static/js/main.ec966aa2.chunk.js.map",
+    "main.css": "/static/css/main.0c8aa8bd.chunk.css",
+    "main.js": "/static/js/main.88dfabca.chunk.js",
+    "main.js.map": "/static/js/main.88dfabca.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.04a735df.js",
     "runtime~main.js.map": "/static/js/runtime~main.04a735df.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.ec28c657.chunk.js": "/static/js/2.ec28c657.chunk.js",
     "static/js/2.ec28c657.chunk.js.map": "/static/js/2.ec28c657.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cb225552d5657b0b49e4a955a72c3baf.js": "/precache-manifest.cb225552d5657b0b49e4a955a72c3baf.js",
+    "precache-manifest.8c83e5ea7197ef66584dafaa76fd9e9c.js": "/precache-manifest.8c83e5ea7197ef66584dafaa76fd9e9c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.938b1d7d.chunk.css.map": "/static/css/main.938b1d7d.chunk.css.map",
+    "static/css/main.0c8aa8bd.chunk.css.map": "/static/css/main.0c8aa8bd.chunk.css.map",
     "static/media/about.png": "/static/media/about.560f1ae2.png",
     "static/media/coming-soon.jpg": "/static/media/coming-soon.cf6c8b3f.jpg",
     "static/media/david.png": "/static/media/david.fb346375.png",
@@ -22,7 +22,7 @@
     "static/media/jumbo.css": "/static/media/jumbo.8dff7b14.jpg",
     "static/media/logo.png": "/static/media/logo.577993a6.png",
     "static/media/mern.jpg": "/static/media/mern.155b42c9.jpg",
-    "static/media/portfolio1.png": "/static/media/portfolio1.83558352.png",
+    "static/media/portfolio1.png": "/static/media/portfolio1.d323aaa5.png",
     "static/media/responsive-design.png": "/static/media/responsive-design.a93af726.png",
     "static/media/responsive.jpg": "/static/media/responsive.d0d6665b.jpg"
   }
