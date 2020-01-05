@@ -1,6 +1,7 @@
 $orange: rgb(255, 123, 0);
 
 #portfolio {
+    margin-bottom: 100px;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -37,10 +38,14 @@ $orange: rgb(255, 123, 0);
 
 
 section article img {
-    width: 550px;
+    flex:1;
     margin-left: -10px;
     height: 400px;
     padding: 10px;
+}
+
+.portfolio_img {
+    border: solid thick rgba(199, 199, 199, 0.459);
 }
 
 

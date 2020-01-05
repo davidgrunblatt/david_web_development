@@ -16,10 +16,9 @@ class Work extends React.Component{
                         <div className = 'project_about'>
                             <h4>Furelos Clinic</h4>
                             <p>
-                                This is a single page web application made using 
-                                React.js and a Node.js backend. This app enables users 
-                                to video chat with their physicians from anywhere in the 
-                                world. 
+                                This is a single page React.js web application made with the purpose of connecting users
+                                to their physicians. This app accomplishes this by offering live
+                                video conference services, as well as the ability to share files and update information in real time. 
                                 <br />
                                 <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
                                 <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
@@ -29,7 +28,7 @@ class Work extends React.Component{
                             <ul>
                                 <li><span>Features: </span></li>
                                 <li className = 'badge'>JWT Authentication</li>
-                                <li className = 'badge'>Live video chat w/ Twilio</li>
+                                <li className = 'badge'>Live video chat using Twilio API</li>
                                 <li className = 'badge'>Account registration - CRUD operations</li>
                                 <li className = 'badge'>File uploads</li>
                                 <li className = 'badge'>Email correnspondence</li>
