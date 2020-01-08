@@ -88,15 +88,15 @@ class Contact extends Component{
 
                     <form id = 'form' onSubmit = {this.makePostReq}>
                        <div className = 'form-group'>
-                            <label htmlFor = 'name' style = {{fontWeight: 'bold'}}>Name:</label>
+                            <label htmlFor = 'name'>Name:</label>
                             <input type = 'text' name = 'name' onChange = {this.handleChange} className = 'form-control' value = {this.state.name} required/>
                        </div>
                        <div className = 'form-group'>
-                            <label htmlFor = 'subject' style = {{fontWeight: 'bold'}}>Subject:</label>
+                            <label htmlFor = 'subject'>Subject:</label>
                             <input type = 'text' name = 'subject' onChange = {this.handleChange} className = 'form-control' value = {this.state.subject} required/>
                        </div>
                        <div className = 'form-group'>
-                            <label htmlFor = 'message' style = {{fontWeight: 'bold'}}>Message:</label>
+                            <label htmlFor = 'message'>Message:</label>
                             <textarea type = 'text' name = 'message' onChange = {this.handleChange} className = 'form-control' value = {this.state.message} required></textarea>
                        </div>
                         <button type = 'submit' className = 'btn btn-sm btn-block'>{this.state.sent === true ? "Sent!" : "Send"}</button>

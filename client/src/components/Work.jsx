@@ -16,11 +16,14 @@ class Work extends React.Component{
                         <div className = 'project_about'>
                             <h4>Furelos Clinic</h4>
                             <p>
-                                This is a single page React.js web application made with the purpose of connecting users
+                                This is a full stack web application made with the purpose of connecting users
                                 to their physicians. This app accomplishes this by offering live
-                                video conference services, as well as the ability to share files and update information in real time. 
+                                video conference services as well as the ability to share files and update 
+                                information in real time. 
                                 <br />
-                                <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
+                                <a href = 'https://github.com/davidgrunblatt/medicalOnline' target = '_blank'>
+                                    <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
+                                </a>
                                 <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
                                     <img className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>

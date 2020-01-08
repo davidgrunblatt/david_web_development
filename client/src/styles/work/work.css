@@ -56,7 +56,9 @@ section article img {
 }
 
 .portfolio_img {
-  border: solid thick rgba(199, 199, 199, 0.459);
+  border: solid thick rgba(199, 199, 199, 0.247);
+  -webkit-box-shadow: 1px 1px 2px silver;
+          box-shadow: 1px 1px 2px silver;
 }
 
 ul {
