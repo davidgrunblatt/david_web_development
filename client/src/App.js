@@ -88,7 +88,7 @@ class App extends React.Component{
                 links[1].style.color = "black"; 
              }
              // NAV ITEMS HIGHLIGHT
-             if (document.documentElement.scrollTop > 2800 || document.body.scrollTop > 2800){
+             if (document.documentElement.scrollTop > 2600 || document.body.scrollTop > 2600){
                 links[2].style.color = 'black'
                 links[0].style.color = "black"; 
                 links[1].style.color = "rgb(255, 123, 0)"; 
