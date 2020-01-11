@@ -98,6 +98,22 @@ class Work extends React.Component{
                         </div>
                     </article>
                 </section>
+                {/* SECOND PROJECT SECTION  */}
+                <section>
+                    <article className = 'project'>
+                        <div>
+                            <a href = 'https://crimpy.herokuapp.com/' target = '_blank'>
+                                <img id = 'crimpyIMG' className = 'portfolio_img' src = {construction} alt = '' />
+                            </a>
+                        </div>
+                        <div className = 'project_about'>
+                            <h4>More coming soon!</h4>
+                            <a href = 'https://github.com/davidgrunblatt/Crimpy' target = '_blank'>
+                                    <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
+                                </a>
+                        </div>
+                    </article>
+                </section>
             </div>
         )
     }
