@@ -82,6 +82,10 @@ class Contact extends Component{
     }
 
     render(){
+        const icon_style = {
+            width: 40,
+            height: 40
+        }
             return(
                 <div id = 'contact' className = 'silver margin'>
                     {this.state.sent === false ? <img className = 'header' src = {contact_header} alt = 'contact header' /> : <h1>Sent!</h1>}
@@ -101,7 +105,11 @@ class Contact extends Component{
                        </div>
                         <button type = 'submit' className = 'btn btn-sm btn-block'>{this.state.sent === true ? "Sent!" : "Send"}</button>
                     </form>
-    
+                    <span className = 'm-4'>
+                        <a href = 'mailto:dpg1919@gmail.com'>
+                            <img className = 'mt-4' style = {icon_style} src = {require('../images/email.png')} alt = 'email'/>
+                        </a>
+                    </span>
                 </div>
             )
         } 

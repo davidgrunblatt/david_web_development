@@ -52,8 +52,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-transition-property: background;
-  transition-property: background;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
@@ -145,6 +143,10 @@
   transition-property: font-weight, text-decoration, -webkit-text-decoration;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
+}
+
+.bottom-nav a:active {
+  color: #ff7b00;
 }
 
 @media screen and (max-width: 1023px) {

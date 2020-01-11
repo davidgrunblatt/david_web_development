@@ -10,7 +10,7 @@ class Work extends React.Component{
                     <article className = 'project'>
                         <div>
                             <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
-                                <img className = 'portfolio_img' src = {require('../images/portfolio1.png')} alt = '' />
+                                <img className = 'portfolio_img' src = {require('../images/portfolio2.png')} alt = '' />
                             </a>
                         </div>
                         <div className = 'project_about'>
@@ -105,12 +105,6 @@ class Work extends React.Component{
                             <a href = 'https://crimpy.herokuapp.com/' target = '_blank'>
                                 <img id = 'crimpyIMG' className = 'portfolio_img' src = {construction} alt = '' />
                             </a>
-                        </div>
-                        <div className = 'project_about'>
-                            <h4>More coming soon!</h4>
-                            <a href = 'https://github.com/davidgrunblatt/Crimpy' target = '_blank'>
-                                    <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
-                                </a>
                         </div>
                     </article>
                 </section>
