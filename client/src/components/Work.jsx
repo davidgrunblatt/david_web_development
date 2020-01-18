@@ -30,8 +30,8 @@ class Work extends React.Component{
                             </p>
                             <ul>
                                 <li><span>Features: </span></li>
+                                <li className = 'badge'>Live video chat</li>
                                 <li className = 'badge'>JWT Authentication</li>
-                                <li className = 'badge'>Live video chat using Twilio API</li>
                                 <li className = 'badge'>Account registration - CRUD operations</li>
                                 <li className = 'badge'>File uploads</li>
                                 <li className = 'badge'>Email correnspondence</li>
@@ -66,8 +66,11 @@ class Work extends React.Component{
                         <div className = 'project_about'>
                             <h4>Touchstone Climbing</h4>
                             <p>
-                                This is a rock climbing training app in which users can keep track of their progress, share 
-                                with friends, and complete training packs. 
+                                This is a rock climbing training application which seeks to empower
+                                users to reach their climbing goals. This application allows users to keep track of their
+                                progress via a social media like timeline in which they can post notes and images of all their
+                                sessions. Users can also complete interactive training packs which focus on technique, strength, and endurance, 
+                                all essential tools for a climber. 
                                 <br />
                                 <a href = 'https://github.com/davidgrunblatt/Crimpy' target = '_blank'>
                                     <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
@@ -80,7 +83,9 @@ class Work extends React.Component{
                                 <li><span>Features: </span></li>
                                 <li className = 'badge'>JWT Authentication</li>
                                 <li className = 'badge'>Account registration - CRUD operations</li>
-                                <li className = 'badge'>File uploads</li>
+                                <li className = 'badge'>Social media like timeline</li>
+                                <li className = 'badge'>Image uploads</li>
+                                <li className = 'badge'>Interactive training games</li>
                             </ul>
                             <ul>
                                 <li><span>Technologies used:</span> </li>
