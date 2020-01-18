@@ -72,7 +72,7 @@ class Work extends React.Component{
                                 <a href = 'https://github.com/davidgrunblatt/Crimpy' target = '_blank'>
                                     <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
                                 </a>
-                                <a href = 'https://crimpy.herokuapp.com/' target = '_blank'>
+                                <a href = 'https://touchstoneclimbing.herokuapp.com/' target = '_blank'>
                                     <img className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>
