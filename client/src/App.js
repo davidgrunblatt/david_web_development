@@ -22,7 +22,8 @@ import logo from './images/logo.png';
 import responsive_header from './images/responsive-design.png';
 import responsive_img from './images/responsive.jpg'; 
 import javascript_header from './images/javascript.png'; 
-import about_header from './images/about.png'; 
+import about_header from './images/about2.png'; 
+import work_header from './images/work2.png'; 
 import david from './images/david.png'; 
 
 class App extends React.Component{
@@ -34,6 +35,7 @@ class App extends React.Component{
             responsive_img,
             responsive_string: 'Look great on any platform, from mobile to desktop.',
             javascript_header,
+            work_header,
             javascript_string: 'I specialize in using cutting edge Javascript to make fast and dynamic web applications.',
             about_header,
             david
@@ -77,22 +79,6 @@ class App extends React.Component{
                     // links[1].style.color = 'black';
                     // links[2].style.color = 'black';
             }   
-            // else {
-            //         links[0].style.color = 'black'; 
-            // }
-
-            // NAV ITEMS HIGHLIGHT
-            // if (document.documentElement.scrollTop > 2100 || document.body.scrollTop > 2100){
-            //     links[2].style.color = "rgb(255, 123, 0)"; 
-            //     links[0].style.color = "black"; 
-            //     links[1].style.color = "black"; 
-            //  }
-            //  // NAV ITEMS HIGHLIGHT
-            //  if (document.documentElement.scrollTop > 2600 || document.body.scrollTop > 2600){
-            //     links[2].style.color = 'black'
-            //     links[0].style.color = "black"; 
-            //     links[1].style.color = "rgb(255, 123, 0)"; 
-            //  }
         })
     }
 
@@ -110,8 +96,8 @@ class App extends React.Component{
                           js_header = {this.state.javascript_header} js_img = {this.state.javascript_img} 
                 />
                 <About about_header = {this.state.about_header} headshot = {this.state.david} />
+                <Work work = {this.state.work_header} /> 
                 <Contact/>
-                <Work /> 
             </div>
         )
     }

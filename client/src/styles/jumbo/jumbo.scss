@@ -66,7 +66,9 @@ $orange: rgb(255, 123, 0);
                 text-align:center;
     
                 h3{
+                    margin: 5px;
                     border-bottom:solid 3px white;
+                    font-size: 20px;
                 }
             }
         }
@@ -97,23 +99,15 @@ $orange: rgb(255, 123, 0);
     display:flex;
     align-items:center;
     justify-content:space-evenly; 
-    transition-property: height;
-    transition-duration: 1s;
 
     a {
         color:black;
-        font-weight:500;
     }
     a:hover{
-        text-decoration:none;
-        text-decoration: underline;
-        text-decoration-color: rgb(255, 123, 0);
-        font-weight:700;
-        transition-property: font-weight, text-decoration;
-        transition-duration: .5s;
+        color: $orange;
     }
     a:active{
-        color: rgb(255, 123, 0);
+        color: $orange;
     }
     
 }
@@ -124,9 +118,6 @@ $orange: rgb(255, 123, 0);
     #jumbotron{
         background-position: top;
         
-        .slogan{
-            // margin-top:140px;
-        }
         .slogan-background h1{
             font-size:30px;
             text-align:center;

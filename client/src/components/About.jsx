@@ -9,7 +9,7 @@ const About = (props) => {
             <div className = 'about_item'>
                 <img className = 'header' src = {props.about_header} alt = 'logo'/>
                 <p>
-                    My name is David Grunblatt and I'm a web developer living in Los Angeles, Ca. <br/>
+                    My name is David Grunblatt and I'm a web developer living in Los Angeles, CA. <br/>
                     I'm passionate about learning and constantly trying to expand my skillset. I take great
                     care in hand crafting my apps meticulously from wireframes all the way to deployment. <br/>
                     <br/>

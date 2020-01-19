@@ -85,7 +85,9 @@
 }
 
 #jumbotron .nav-bar div:nth-child(1) span h3 {
+  margin: 5px;
   border-bottom: solid 3px white;
+  font-size: 20px;
 }
 
 #jumbotron .nav-bar div:nth-child(even) {
@@ -120,29 +122,14 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-transition-property: height;
-  transition-property: height;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
 }
 
 .bottom-nav a {
   color: black;
-  font-weight: 500;
 }
 
 .bottom-nav a:hover {
-  text-decoration: none;
-  text-decoration: underline;
-  -webkit-text-decoration-color: #ff7b00;
-          text-decoration-color: #ff7b00;
-  font-weight: 700;
-  -webkit-transition-property: font-weight, -webkit-text-decoration;
-  transition-property: font-weight, -webkit-text-decoration;
-  transition-property: font-weight, text-decoration;
-  transition-property: font-weight, text-decoration, -webkit-text-decoration;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
+  color: #ff7b00;
 }
 
 .bottom-nav a:active {

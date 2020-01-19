@@ -1,11 +1,10 @@
 import React from 'react';
-import construction from '../images/coming-soon.jpg'; 
 
 class Work extends React.Component{
     render(){
         return(
-            <div id = 'portfolio'>
-                <img className = 'header' src = {require('../images/work.png')} alt = 'contact header' />
+            <div id = 'portfolio' className = 'silver'>
+                <img className = 'header' src = {this.props.work} alt = 'contact header' />
                 <section>
                     <article className = 'project'>
                         <div>
@@ -25,7 +24,7 @@ class Work extends React.Component{
                                     <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
                                 </a>
                                 <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
-                                    <img className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>
                             <ul>
@@ -34,7 +33,7 @@ class Work extends React.Component{
                                 <li className = 'badge'>JWT Authentication</li>
                                 <li className = 'badge'>Account registration - CRUD operations</li>
                                 <li className = 'badge'>File uploads</li>
-                                <li className = 'badge'>Email correnspondence</li>
+                                <li className = 'badge'>Email correspondence</li>
                             </ul>
                             <ul>
                                 <li><span>Technologies used:</span> </li>
@@ -60,7 +59,7 @@ class Work extends React.Component{
                     <article className = 'project'>
                         <div>
                             <a href = 'https://touchstoneclimbing.herokuapp.com/' target = '_blank'>
-                                <img id = 'crimpyIMG' className = 'portfolio_img' src = {require('../images/crimpy.png')} alt = '' />
+                                <img className = 'portfolio_img' src = {require('../images/crimpy2.png')} alt = '' />
                             </a>
                         </div>
                         <div className = 'project_about'>
@@ -76,7 +75,7 @@ class Work extends React.Component{
                                     <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
                                 </a>
                                 <a href = 'https://touchstoneclimbing.herokuapp.com/' target = '_blank'>
-                                    <img className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>
                             <ul>
@@ -103,13 +102,13 @@ class Work extends React.Component{
                         </div>
                     </article>
                 </section>
-                {/* SECOND PROJECT SECTION  */}
+                {/* THIRD PROJECT SECTION  */}
                 <section>
                     <article className = 'project'>
                         <div>
-                            <a href = 'https://crimpy.herokuapp.com/' target = '_blank'>
+                            {/* <a href = 'https://crimpy.herokuapp.com/' target = '_blank'>
                                 <img id = 'crimpyIMG' className = 'portfolio_img' src = {construction} alt = '' />
-                            </a>
+                            </a> */}
                         </div>
                     </article>
                 </section>

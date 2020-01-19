@@ -17,6 +17,10 @@
   width: 500px;
 }
 
+.article_two {
+  height: 450px;
+}
+
 @media screen and (max-width: 1023px) {
   .article_one, .article_two {
     display: -webkit-box;

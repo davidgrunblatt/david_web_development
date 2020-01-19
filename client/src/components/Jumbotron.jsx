@@ -36,7 +36,7 @@ class Jumbotron extends React.Component{
                     <div>
                         <img src = {this.props.logo} alt = 'Responsive design logo' />
                         <span>
-                            <h3>David G.</h3> 
+                            <h3>David Grunblatt</h3> 
                             <p>Full Stack Web Developer</p>
                         </span>
                     </div>
@@ -45,7 +45,7 @@ class Jumbotron extends React.Component{
 
                 <div className= 'slogan'>
                     <div className= 'slogan-background'>
-                        <h1>Lets build something beautiful together</h1>
+                        <h1>Let's build something beautiful together</h1>
                     </div>
                 </div>
                 
