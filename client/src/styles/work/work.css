@@ -59,11 +59,16 @@ section article img {
   padding: 10px;
 }
 
+section article img:active {
+  opacity: .5;
+}
+
 .portfolio_img {
   -webkit-box-shadow: 1px 1px 2px silver;
           box-shadow: 1px 1px 2px silver;
+  border-radius: 20px;
   width: 250px;
-  height: 400px;
+  height: 450px;
   padding: 1px;
   margin-bottom: 10px;
 }
@@ -101,9 +106,6 @@ ul li {
   section article img {
     width: 280px;
     height: 200px;
-  }
-  section article img:hover {
-    opacity: .5;
   }
 }
 /*# sourceMappingURL=work.css.map */

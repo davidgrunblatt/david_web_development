@@ -103,11 +103,14 @@ $orange: rgb(255, 123, 0);
     a {
         color:black;
     }
-    a:hover{
-        color: $orange;
-    }
     a:active{
         color: $orange;
+    }
+
+    @media screen and (min-width: 1000px){
+        a:hover{
+            color: $orange;
+        }
     }
     
 }
