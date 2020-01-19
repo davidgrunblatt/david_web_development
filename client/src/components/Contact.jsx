@@ -103,7 +103,7 @@ class Contact extends Component{
                             <label htmlFor = 'message'>Message:</label>
                             <textarea type = 'text' name = 'message' onChange = {this.handleChange} className = 'form-control' value = {this.state.message} required></textarea>
                        </div>
-                        <button type = 'submit' className = 'btn btn-sm btn-block'>{this.state.sent === true ? "Sent!" : "Send"}</button>
+                        <button type = 'submit' style = {{color: 'white'}} className = 'btn btn-sm btn-block'>{this.state.sent === true ? "Sent!" : "Send"}</button>
                     </form>
                     <span className = 'm-4'>
                         <a href = 'mailto:dpg1919@gmail.com'>
