@@ -73,6 +73,18 @@ section article img:active {
   margin-bottom: 10px;
 }
 
+.wrestlemania_img {
+  width: 400px !important;
+  height: 300px;
+}
+
+@media screen and (max-width: 450px) {
+  .wrestlemania_img {
+    width: 280px !important;
+    height: 230px;
+  }
+}
+
 #arrow:hover {
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;

@@ -106,9 +106,42 @@ class Work extends React.Component{
                 <section>
                     <article className = 'project'>
                         <div>
-                            {/* <a href = 'https://crimpy.herokuapp.com/' target = '_blank'>
-                                <img id = 'crimpyIMG' className = 'portfolio_img' src = {construction} alt = '' />
-                            </a> */}
+                            <a href = 'https://wrestlemania-game.netlify.com/' target = '_blank'>
+                                <img id = 'crimpyIMG' className = 'wrestlemania_img portfolio_img' src = {require('../images/portfolio3.png')} alt = '' />
+                            </a>
+                        </div>
+                        <div className = 'project_about'>
+                            <h4>WrestleMania Game</h4>
+                            <p>
+                                This is an interactive multimedia board game built using vanilla JS. As a player advances through 
+                                the board, depending on where they land, will trigger different videos and sound effects. 
+                                <br />
+                                <br />
+                                This was one of my first projects and I wanted to share it to show my progression as a developer
+                                in contrast to my current full stack applications. 
+                                <br/>
+                                <br/>
+                                Available for desktop only. 
+                                <br />
+                                <a href = 'https://github.com/davidgrunblatt/wrestlemania' target = '_blank'>
+                                    <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
+                                </a>
+                                <a href = 'https://wrestlemania-game.netlify.com/' target = '_blank'>
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                </a>
+                            </p>
+                            <ul>
+                                <li><span>Features: </span></li>
+                                <li className = 'badge'>Multimedia: video, audio effects</li>
+                            </ul>
+                            <ul>
+                                <li><span>Technologies used:</span> </li>
+                                <li className = 'badge'>HTML</li>
+                                <li className = 'badge'>CSS</li>
+                                <li className = 'badge'>JavaScript</li>
+                                <li className = 'badge'>GIT</li>
+                                <li className = 'badge'>Netlify</li>
+                            </ul>
                         </div>
                     </article>
                 </section>

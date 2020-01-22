@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.418abd52.chunk.css",
-    "main.js": "/static/js/main.c0f9551f.chunk.js",
-    "main.js.map": "/static/js/main.c0f9551f.chunk.js.map",
+    "main.css": "/static/css/main.776ff007.chunk.css",
+    "main.js": "/static/js/main.e789608a.chunk.js",
+    "main.js.map": "/static/js/main.e789608a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.04a735df.js",
     "runtime~main.js.map": "/static/js/runtime~main.04a735df.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.efaac297.chunk.js": "/static/js/2.efaac297.chunk.js",
-    "static/js/2.efaac297.chunk.js.map": "/static/js/2.efaac297.chunk.js.map",
+    "static/js/2.4c8ee24c.chunk.js": "/static/js/2.4c8ee24c.chunk.js",
+    "static/js/2.4c8ee24c.chunk.js.map": "/static/js/2.4c8ee24c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9b0caab644d419e7326abb59f5699392.js": "/precache-manifest.9b0caab644d419e7326abb59f5699392.js",
+    "precache-manifest.65c5f6bf0bb2cd2c6d7d90d79dc4d100.js": "/precache-manifest.65c5f6bf0bb2cd2c6d7d90d79dc4d100.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.418abd52.chunk.css.map": "/static/css/main.418abd52.chunk.css.map",
+    "static/css/main.776ff007.chunk.css.map": "/static/css/main.776ff007.chunk.css.map",
     "static/media/about2.png": "/static/media/about2.5de957e2.png",
     "static/media/crimpy2.png": "/static/media/crimpy2.2f6ba9ee.png",
     "static/media/david.png": "/static/media/david.fb346375.png",
@@ -24,6 +24,7 @@
     "static/media/logo.png": "/static/media/logo.577993a6.png",
     "static/media/mern.jpg": "/static/media/mern.155b42c9.jpg",
     "static/media/portfolio2.png": "/static/media/portfolio2.cd739b4f.png",
+    "static/media/portfolio3.png": "/static/media/portfolio3.739f97ff.png",
     "static/media/responsive-design.png": "/static/media/responsive-design.a93af726.png",
     "static/media/responsive.jpg": "/static/media/responsive.d0d6665b.jpg"
   }
