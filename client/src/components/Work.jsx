@@ -104,7 +104,7 @@ class Work extends React.Component{
                 </section>
                 {/* THIRD PROJECT SECTION  */}
                 <section>
-                    <article className = 'project'>
+                    {/* <article className = 'project'>
                         <div>
                             <a href = 'https://wrestlemania-game.netlify.com/' target = '_blank'>
                                 <img id = 'crimpyIMG' className = 'wrestlemania_img portfolio_img' src = {require('../images/portfolio3.png')} alt = '' />
@@ -143,7 +143,7 @@ class Work extends React.Component{
                                 <li className = 'badge'>Netlify</li>
                             </ul>
                         </div>
-                    </article>
+                    </article> */}
                 </section>
             </div>
         )
