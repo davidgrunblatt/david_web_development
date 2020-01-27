@@ -56,7 +56,7 @@ class Work extends React.Component{
                 
                 {/* SECOND PROJECT SECTION  */}
                 <section>
-                    <article className = 'project'>
+                    {/* <article className = 'project'>
                         <div>
                             <a href = 'https://touchstoneclimbing.herokuapp.com/' target = '_blank'>
                                 <img className = 'portfolio_img' src = {require('../images/crimpy2.png')} alt = '' />
@@ -100,7 +100,7 @@ class Work extends React.Component{
                                 <li className = 'badge'>Heroku</li>
                             </ul>
                         </div>
-                    </article>
+                    </article> */}
                 </section>
                 {/* THIRD PROJECT SECTION  */}
                 <section>
