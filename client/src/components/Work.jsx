@@ -33,6 +33,7 @@ class Work extends React.Component{
                                 <li className = 'badge'>JWT Authentication</li>
                                 <li className = 'badge'>Account registration - CRUD operations</li>
                                 <li className = 'badge'>File uploads</li>
+                                <li className = 'badge'>Appointment maker</li>
                                 <li className = 'badge'>Email correspondence</li>
                             </ul>
                             <ul>

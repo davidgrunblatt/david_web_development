@@ -2,9 +2,13 @@ const express = require('express');
 const app = express();
 const mail = require('./routes/mail'); 
 const PORT = process.env.PORT || 3001;
+const compression = require('compression');
+const helmet = require('helmet');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
+app.use(helmet());
+app.use(compression()); 
 app.use('/api/mail', mail); 
 
 if (process.env.NODE_ENV === "production") {
