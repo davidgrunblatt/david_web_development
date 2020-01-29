@@ -16,8 +16,8 @@ class Work extends React.Component{
                             <h4>Furelos Clinic</h4>
                             <p>
                                 This is a full stack web application made with the purpose of connecting users
-                                to their physicians. This app accomplishes this by offering live
-                                video conference services as well as the ability to share files and update 
+                                to their physician. This app accomplishes this by offering live
+                                video conference services as well as the ability to share files, make appointments, and update 
                                 information in real time. 
                                 <br />
                                 <a href = 'https://github.com/davidgrunblatt/medicalOnline' target = '_blank'>
