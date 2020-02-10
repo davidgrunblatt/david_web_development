@@ -99,7 +99,29 @@ class Work extends React.Component{
                         </div>
                     </article>
                 </section>
-                {/* THIRD PROJECT SECTION  */}
+
+                {/* YOUTUBE  */}
+                <section>
+                    <article className = 'project'>
+                        <div>
+                            <a href = 'https://www.youtube.com/channel/UCIgQiUUnFxBADKfzKh0S99g?view_as=subscriber' target = '_blank'>
+                                <img className = 'portfolio_img' src = {require('../images/youtube.png')} alt = '' />
+                            </a>
+                        </div>
+                        <div className = 'project_about'>
+                            <h4>Youtube coding tutorials</h4>
+                            <p>
+                                This is my youtube channel in which I aim to make web development accessible to all
+                                by providing in depth step by step instruction on web development
+                                fundamentals such as CSS, Responsive Design, JavaScript, etc.
+                                <br />
+                                <a href = 'https://www.youtube.com/channel/UCIgQiUUnFxBADKfzKh0S99g?view_as=subscriber' target = '_blank'>
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                </a>
+                            </p>
+                        </div>
+                    </article>
+                </section>
             </div>
         )
     }
