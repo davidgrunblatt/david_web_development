@@ -57,35 +57,31 @@ class Work extends React.Component{
                 
                 {/* SECOND PROJECT SECTION  */}
                 <section>
-                    {/* <article className = 'project'>
+                    <article className = 'project'>
                         <div>
-                            <a href = 'https://touchstoneclimbing.herokuapp.com/' target = '_blank'>
+                            <a href = 'https://cms-react.herokuapp.com/' target = '_blank'>
                                 <img className = 'portfolio_img' src = {require('../images/crimpy2.png')} alt = '' />
                             </a>
                         </div>
                         <div className = 'project_about'>
-                            <h4>Touchstone Climbing</h4>
+                            <h4>React Content Management System</h4>
                             <p>
-                                This is a rock climbing training application which seeks to empower
-                                users to reach their climbing goals. This application allows users to keep track of their
-                                progress via a social media like timeline in which they can post notes and images of all their
-                                sessions. Users can also complete interactive training packs which focus on technique, strength, and endurance, 
-                                all essential tools for a climber. 
+                                This is a template website built with React.js that allows users to login 
+                                and customize the content of their theme without the need to code. 
                                 <br />
-                                <a href = 'https://github.com/davidgrunblatt/Crimpy' target = '_blank'>
+                                <a href = 'https://github.com/davidgrunblatt/frontEndShowcase' target = '_blank'>
                                     <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
                                 </a>
-                                <a href = 'https://touchstoneclimbing.herokuapp.com/' target = '_blank'>
+                                <a href = 'https://cms-react.herokuapp.com/' target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>
                             <ul>
                                 <li><span>Features: </span></li>
+                                <li className = 'badge'>Codeless content management and customizability</li>
                                 <li className = 'badge'>JWT Authentication</li>
                                 <li className = 'badge'>Account registration - CRUD operations</li>
-                                <li className = 'badge'>Social media like timeline</li>
                                 <li className = 'badge'>Image uploads</li>
-                                <li className = 'badge'>Interactive training games</li>
                             </ul>
                             <ul>
                                 <li><span>Technologies used:</span> </li>
@@ -101,51 +97,9 @@ class Work extends React.Component{
                                 <li className = 'badge'>Heroku</li>
                             </ul>
                         </div>
-                    </article> */}
+                    </article>
                 </section>
                 {/* THIRD PROJECT SECTION  */}
-                <section>
-                    {/* <article className = 'project'>
-                        <div>
-                            <a href = 'https://wrestlemania-game.netlify.com/' target = '_blank'>
-                                <img id = 'crimpyIMG' className = 'wrestlemania_img portfolio_img' src = {require('../images/portfolio3.png')} alt = '' />
-                            </a>
-                        </div>
-                        <div className = 'project_about'>
-                            <h4>WrestleMania Game</h4>
-                            <p>
-                                This is an interactive multimedia board game built using vanilla JS. As a player advances through 
-                                the board, depending on where they land, will trigger different videos and sound effects. 
-                                <br />
-                                <br />
-                                This was one of my first projects and I wanted to share it to show my progression as a developer
-                                in contrast to my current full stack applications. 
-                                <br/>
-                                <br/>
-                                Available for desktop only. 
-                                <br />
-                                <a href = 'https://github.com/davidgrunblatt/wrestlemania' target = '_blank'>
-                                    <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
-                                </a>
-                                <a href = 'https://wrestlemania-game.netlify.com/' target = '_blank'>
-                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                                </a>
-                            </p>
-                            <ul>
-                                <li><span>Features: </span></li>
-                                <li className = 'badge'>Multimedia: video, audio effects</li>
-                            </ul>
-                            <ul>
-                                <li><span>Technologies used:</span> </li>
-                                <li className = 'badge'>HTML</li>
-                                <li className = 'badge'>CSS</li>
-                                <li className = 'badge'>JavaScript</li>
-                                <li className = 'badge'>GIT</li>
-                                <li className = 'badge'>Netlify</li>
-                            </ul>
-                        </div>
-                    </article> */}
-                </section>
             </div>
         )
     }
