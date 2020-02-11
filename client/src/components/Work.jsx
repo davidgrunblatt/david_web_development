@@ -64,10 +64,13 @@ class Work extends React.Component{
                             </a>
                         </div>
                         <div className = 'project_about'>
-                            <h4>React Content Management System</h4>
+                            <h4>Front end showcase</h4>
                             <p>
-                                This is a template website built with React.js that allows users to login 
-                                and customize the content of their theme without the need to code. 
+                                This is a rock climbing themed landing page created with the purpose of displaying
+                                my front end capabilities. I place great pride in my responsive design skills and wanted 
+                                to make a project that showcased them. This project was styled using Sass which is a 
+                                preprocessor scripting language that is compiled into 
+                                CSS. 
                                 <br />
                                 <a href = 'https://github.com/davidgrunblatt/frontEndShowcase' target = '_blank'>
                                     <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
@@ -78,22 +81,17 @@ class Work extends React.Component{
                             </p>
                             <ul>
                                 <li><span>Features: </span></li>
-                                <li className = 'badge'>Codeless content management and customizability</li>
-                                <li className = 'badge'>JWT Authentication</li>
-                                <li className = 'badge'>Account registration - CRUD operations</li>
-                                <li className = 'badge'>Image uploads</li>
+                                <li className = 'badge'>Mobile first design</li>
+                                <li className = 'badge'>Responsive layout</li>
+                                <li className = 'badge'>Burger menu</li>
+                                <li className = 'badge'>SCSS preprocessing</li>
                             </ul>
                             <ul>
-                                <li><span>Technologies used:</span> </li>
+                                <li><span>Technologies used:</span></li>
+                                <li className = 'badge'>CSS</li>
                                 <li className = 'badge'>SCSS</li>
                                 <li className = 'badge'>React.js</li>
                                 <li className = 'badge'>JavaScript</li>
-                                <li className = 'badge'>Node.js</li>
-                                <li className = 'badge'>Express.js</li>
-                                <li className = 'badge'>JSON Web Tokens</li>
-                                <li className = 'badge'>Axios</li>
-                                <li className = 'badge'>MongoDB</li>
-                                <li className = 'badge'>Mongoose</li>
                                 <li className = 'badge'>Heroku</li>
                             </ul>
                         </div>
