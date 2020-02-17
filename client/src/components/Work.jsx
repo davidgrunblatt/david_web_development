@@ -54,49 +54,6 @@ class Work extends React.Component{
                         </div>
                     </article>
                 </section>
-                
-                {/* SECOND PROJECT SECTION  */}
-                <section>
-                    <article className = 'project'>
-                        <div>
-                            <a href = 'https://cms-react.herokuapp.com/' target = '_blank'>
-                                <img className = 'portfolio_img' src = {require('../images/crimpy2.png')} alt = '' />
-                            </a>
-                        </div>
-                        <div className = 'project_about'>
-                            <h4>Front end showcase</h4>
-                            <p>
-                                This is a rock climbing themed landing page created with the purpose of displaying
-                                my front end capabilities. I place great pride in my responsive design skills and wanted 
-                                to make a project that showcased them. This project was styled using Sass which is a 
-                                preprocessor scripting language that is compiled into 
-                                CSS. 
-                                <br />
-                                <a href = 'https://github.com/davidgrunblatt/frontEndShowcase' target = '_blank'>
-                                    <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
-                                </a>
-                                <a href = 'https://cms-react.herokuapp.com/' target = '_blank'>
-                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                                </a>
-                            </p>
-                            <ul>
-                                <li><span>Features: </span></li>
-                                <li className = 'badge'>Mobile first design</li>
-                                <li className = 'badge'>Responsive layout</li>
-                                <li className = 'badge'>Burger menu</li>
-                                <li className = 'badge'>SCSS preprocessing</li>
-                            </ul>
-                            <ul>
-                                <li><span>Technologies used:</span></li>
-                                <li className = 'badge'>CSS</li>
-                                <li className = 'badge'>SCSS</li>
-                                <li className = 'badge'>React.js</li>
-                                <li className = 'badge'>JavaScript</li>
-                                <li className = 'badge'>Heroku</li>
-                            </ul>
-                        </div>
-                    </article>
-                </section>
 
                 {/* YOUTUBE  */}
                 <section>
@@ -107,7 +64,7 @@ class Work extends React.Component{
                             </a>
                         </div>
                         <div className = 'project_about'>
-                            <h4>Youtube coding tutorials</h4>
+                            <h4>YouTube coding tutorials</h4>
                             <p>
                                 This is my youtube channel in which I aim to make web development accessible to all
                                 by providing in depth step by step instruction on web development
@@ -117,6 +74,13 @@ class Work extends React.Component{
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>
+                            <ul>
+                                <li><span>Tutorials: </span></li>
+                                <li className = 'badge'>FlexBox Responsive Design</li>
+                                <li className = 'badge'>JavaScrip onLoad FX</li>
+                                <li className = 'badge'>JavaScript onScroll FX</li>
+                                <li className = 'badge'>SCSS Responsive Design</li>
+                            </ul>
                         </div>
                     </article>
                 </section>
