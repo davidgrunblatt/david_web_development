@@ -56,7 +56,7 @@ class Work extends React.Component{
                 </section>
 
                 {/* YOUTUBE  */}
-                <section>
+                {/* <section>
                     <article className = 'project'>
                         <div>
                             <a href = 'https://www.youtube.com/channel/UCIgQiUUnFxBADKfzKh0S99g?view_as=subscriber' target = '_blank'>
@@ -83,7 +83,7 @@ class Work extends React.Component{
                             </ul>
                         </div>
                     </article>
-                </section>
+                </section> */}
             </div>
         )
     }
