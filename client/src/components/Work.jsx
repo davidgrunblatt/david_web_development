@@ -55,35 +55,37 @@ class Work extends React.Component{
                     </article>
                 </section>
 
-                {/* YOUTUBE  */}
-                {/* <section>
+                {/* BLINDLY  */}
+                <section>
                     <article className = 'project'>
                         <div>
-                            <a href = 'https://www.youtube.com/channel/UCIgQiUUnFxBADKfzKh0S99g?view_as=subscriber' target = '_blank'>
-                                <img className = 'portfolio_img' src = {require('../images/youtube.png')} alt = '' />
+                            <a href = 'https://blindlydate.com/' target = '_blank'>
+                                <img className = 'portfolio_img' src = {require('../images/blindlyScreen.png')} alt = '' />
                             </a>
                         </div>
                         <div className = 'project_about'>
-                            <h4>YouTube coding tutorials</h4>
+                            <h4>Blindly</h4>
+                            <p><span>Role: </span> Full Stack Developer</p>
+                            <p><span>Since: </span> March 2020 - Present</p>
+                            <ul>
+                                <li><span>Technologies used:</span> </li>
+                                <li className = 'badge'>React Native</li>
+                                <li className = 'badge'>AWS</li>
+                                <li className = 'badge'>MongoDB</li>
+                            </ul> 
                             <p>
-                                This is my youtube channel in which I aim to make web development accessible to all
-                                by providing in depth step by step instruction on web development
-                                fundamentals such as CSS, Responsive Design, JavaScript, etc.
+                                Blindly is a startup based in the Bay Area seeking to revolutionize 
+                                the mobile dating scene. I've had the pleasure of working with an energetic 
+                                and enthusiastic team in an effort to provide users with the best experience 
+                                possible.
                                 <br />
-                                <a href = 'https://www.youtube.com/channel/UCIgQiUUnFxBADKfzKh0S99g?view_as=subscriber' target = '_blank'>
+                                <a href = 'https://blindlydate.com/' target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>
-                            <ul>
-                                <li><span>Tutorials: </span></li>
-                                <li className = 'badge'>FlexBox Responsive Design</li>
-                                <li className = 'badge'>JavaScrip onLoad FX</li>
-                                <li className = 'badge'>JavaScript onScroll FX</li>
-                                <li className = 'badge'>SCSS Responsive Design</li>
-                            </ul>
                         </div>
                     </article>
-                </section> */}
+                </section>
             </div>
         )
     }
