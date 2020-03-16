@@ -22,9 +22,11 @@ const About = (props) => {
                 <div>
                     <h5>Skills</h5>
                     <p><span>Languages:</span> JavaScript, Python</p>
-                    <p><span>Front End:</span> HTML, CSS, SCSS, Responsive Design, Bootstrap, JavaScript, OOP, AJAX, React.js</p>
+                    <p><span>Front End:</span> HTML, CSS, SCSS, Responsive Design, Bootstrap, JavaScript, AJAX, React.js</p>
                     <p><span>Back End:</span> Node.js, Express.js, MongoDB, SQL</p>
-                    <p><span>Other Skills / Tools:</span> WordPress, Shopify, GIT, Heroku, UX, AdobeXD, Prototyping</p>
+                    <p><span>Mobile Frameworks:</span> React Native</p>
+                    <p><span>CMS:</span> WordPress, Shopify,</p>
+                    <p><span>Other Skills / Tools:</span> GIT, AWS, Heroku, UX, AdobeXD, Prototyping</p>
                     <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
                         <img className = 'github shadow' src = {github} alt = 'github icon' />
                     </a>
