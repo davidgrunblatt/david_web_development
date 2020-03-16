@@ -26,7 +26,7 @@ const About = (props) => {
                     <p><span>Back End:</span> Node.js, Express.js, MongoDB, SQL</p>
                     <p><span>Mobile Frameworks:</span> React Native</p>
                     <p><span>CMS:</span> WordPress, Shopify</p>
-                    <p><span>Other Skills / Tools:</span> Git, AWS, Heroku, UX, AdobeXD, Prototyping</p>
+                    <p><span>Other Skills / Tools:</span> Git, AWS, Heroku, AdobeXD, Prototyping</p>
                     <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
                         <img className = 'github shadow' src = {github} alt = 'github icon' />
                     </a>
