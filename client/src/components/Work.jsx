@@ -66,14 +66,14 @@ class Work extends React.Component{
                         <div className = 'project_about'>
                             <h4>Blindly</h4>
                             <p><span>Role: </span> Full Stack Developer</p>
-                            <p><span>Since: </span> March 2020 - Present</p>
-                            <ul>
+                            <p className = 'work_margin'><span>Since: </span> March 2020 - Present</p>
+                            <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>
                                 <li className = 'badge'>React Native</li>
                                 <li className = 'badge'>AWS</li>
                                 <li className = 'badge'>MongoDB</li>
                             </ul> 
-                            <p>
+                            <p className = 'work_margin'>
                                 Blindly is a startup based in the Bay Area seeking to revolutionize 
                                 the mobile dating scene. I've had the pleasure of working with an energetic 
                                 and enthusiastic team in an effort to provide users with the best experience 

@@ -42,6 +42,10 @@
   font-weight: 600;
 }
 
+.project .work_margin {
+  margin-top: -10px;
+}
+
 .project_about p {
   max-width: 500px;
 }
