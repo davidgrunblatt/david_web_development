@@ -23,7 +23,7 @@ const About = (props) => {
                     <h5>Skills</h5>
                     <p><span>Languages:</span> JavaScript, Python</p>
                     <p><span>Front End:</span> HTML, CSS, SCSS, Responsive Design, Bootstrap, JavaScript, AJAX, React.js</p>
-                    <p><span>Back End:</span> Node.js, Express.js, MongoDB, SQL</p>
+                    <p><span>Back End:</span> Node / Express.js, SQL, MongoDB</p>
                     <p><span>Mobile Frameworks:</span> React Native</p>
                     <p><span>CMS:</span> WordPress, Shopify</p>
                     <p><span>Other Skills / Tools:</span> Git, AWS, Heroku, AdobeXD, Prototyping</p>
