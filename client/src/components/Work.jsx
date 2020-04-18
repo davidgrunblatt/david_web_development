@@ -86,6 +86,35 @@ class Work extends React.Component{
                         </div>
                     </article>
                 </section>
+
+                {/* Drive  */}
+                <section>
+                    <article className = 'project'>
+                        <div>
+                            <a href = 'https://drivewebpros.com/' target = '_blank'>
+                                <img className = 'portfolio_img' src = {require('../images/driveIMG.png')} alt = 'drive web pros' />
+                            </a>
+                        </div>
+                        <div className = 'project_about'>
+                            <h4>Drive</h4>
+                            <p><span>Role: </span> Web Developer</p>
+                            <p className = 'work_margin'><span>Since: </span> April 2020 - Present</p>
+                            <ul className = 'work_margin'>
+                                <li><span>Technologies used:</span> </li>
+                                <li className = 'badge'>C# / .NET</li>
+                                <li className = 'badge'>SQL</li>
+                            </ul> 
+                            <p className = 'work_margin'>
+                                Drive WebPros is a full-service website, marketing, and design team dedicated to increasing 
+                                business for clients. 
+                                <br />
+                                <a href = 'https://drivewebpros.com/' target = '_blank'>
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                </a>
+                            </p>
+                        </div>
+                    </article>
+                </section>
             </div>
         )
     }
