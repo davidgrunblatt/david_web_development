@@ -4,7 +4,7 @@ $orange: rgb(255, 123, 0);
     padding-top: 40px;
     width: 100%;
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
     flex-direction: column;
 }
@@ -40,11 +40,7 @@ $orange: rgb(255, 123, 0);
 }
 
 section {
-    margin-bottom: 30px;
-}
-
-section:nth-child(3){
-    width: 100%;
+    margin-bottom: 20px;
 }
 
 section article img { //github and arrow icons
@@ -56,6 +52,10 @@ section article img:active{
     opacity: .5;
 }
 
+section article:nth-of-type(2) {
+    border: solid thick blue;
+}
+
 .portfolio_img {
     box-shadow: 1px 1px 2px silver;
     border-radius: 20px;
@@ -65,16 +65,8 @@ section article img:active{
     margin-bottom: 10px;
 }
 
-.wrestlemania_img {
-    width: 400px !important;
-    height: 300px;
-}
-
-@media screen and (max-width: 450px){
-    .wrestlemania_img {
-        width: 280px !important;
-        height: 230px;
-    }
+#drive {
+    margin-bottom: 30px;
 }
 
 #arrow:hover {
@@ -100,14 +92,13 @@ ul {
 // MEDIA QUERIES
 @media screen and (max-width: 767px){
 
+    #drive {
+        margin-top: -30px;
+    }
+
     .project_about {
         max-width: 500px;
         margin-top: -10px !important;
-    }
-
-
-    #crimpyIMG {
-        width: 280px;
     }
 
     section article img {
