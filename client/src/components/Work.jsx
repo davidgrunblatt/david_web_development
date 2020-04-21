@@ -66,7 +66,6 @@ class Work extends React.Component{
                         <div className = 'project_about'>
                             <h4>Blindly</h4>
                             <p><span>Role: </span> Full Stack Developer</p>
-                            <p className = 'work_margin'><span>Since: </span> March 2020 - Present</p>
                             <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>
                                 <li className = 'badge'>React Native</li>
@@ -98,7 +97,6 @@ class Work extends React.Component{
                         <div className = 'project_about'>
                             <h4>Drive</h4>
                             <p><span>Role: </span> Web Developer</p>
-                            <p className = 'work_margin'><span>Since: </span> April 2020 - Present</p>
                             <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>
                                 <li className = 'badge'>C# / .NET</li>
