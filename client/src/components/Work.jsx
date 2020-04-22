@@ -85,7 +85,7 @@ class Work extends React.Component{
 
                 {/* BLINDLY  */}
                 <section>
-                    <article className = 'project'>
+                    <article id = 'blindly' className = 'project'>
                         <div>
                             <a href = 'https://blindlydate.com/' target = '_blank'>
                                 <img className = 'portfolio_img' src = {require('../images/blindlyScreen.png')} alt = '' />
