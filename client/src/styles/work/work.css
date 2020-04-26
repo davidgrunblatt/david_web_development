@@ -63,10 +63,6 @@ section article img:active {
   opacity: .5;
 }
 
-section article:nth-of-type(2) {
-  border: solid thick blue;
-}
-
 .portfolio_img {
   -webkit-box-shadow: 1px 1px 2px silver;
           box-shadow: 1px 1px 2px silver;
@@ -79,6 +75,10 @@ section article:nth-of-type(2) {
 
 #drive {
   margin-bottom: 30px;
+}
+
+#car {
+  margin-left: -30px;
 }
 
 #arrow:hover {
@@ -107,8 +107,12 @@ ul li {
   #drive {
     margin-top: -30px;
   }
-  #blindly {
+  #car {
+    margin-left: 0px;
     margin-top: -40px;
+  }
+  #blindly {
+    margin-top: -50px;
   }
   .project_about {
     max-width: 500px;

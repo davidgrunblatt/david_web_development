@@ -115,8 +115,8 @@ class Work extends React.Component{
                 </section>
 
                 {/* CARS */}
-                <section>
-                    <article id = 'blindly' className = 'project'>
+                <section id="car">
+                    <article className = 'project'>
                         <div>
                             <a href = 'https://www.ragingbull-performance.com/Index.aspx' target = '_blank'>
                                 <img className = 'portfolio_img' src = {require('../images/carIMG.png')} alt = '' />
@@ -124,6 +124,7 @@ class Work extends React.Component{
                         </div>
                         <div className = 'project_about'>
                             <h4>Raging Bull Automotive</h4>
+                            <p><span>Role: </span> Web Developer</p>
                             <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>
                                 <li className = 'badge'>C#</li>

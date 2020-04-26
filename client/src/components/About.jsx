@@ -21,7 +21,7 @@ const About = (props) => {
             <div className = 'about_skills margin'>
                 <div>
                     <h5>Skills</h5>
-                    <p><span>Languages:</span> JavaScript, Python</p>
+                    <p><span>Languages:</span> JavaScript, Python, C#</p>
                     <p><span>Front End:</span> HTML, CSS, SCSS, Bootstrap, jQuery, JavaScript</p>
                     <p><span>Back End:</span> Node / Express.js, SQL, MongoDB</p>
                     <p><span>Web Frameworks:</span> .NET, React.js</p>

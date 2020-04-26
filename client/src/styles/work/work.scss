@@ -10,8 +10,7 @@ $orange: rgb(255, 123, 0);
 }
 
 .project {
-    flex:1;
-    // background-color: blue;
+    flex: 1;
     display:flex;
     flex-wrap: wrap;
     align-items: center;
@@ -32,7 +31,6 @@ $orange: rgb(255, 123, 0);
 }
 
 .project_about {
-    // margin-top: -10px !important;
 
     p {
         max-width: 500px;
@@ -52,10 +50,6 @@ section article img:active{
     opacity: .5;
 }
 
-section article:nth-of-type(2) {
-    border: solid thick blue;
-}
-
 .portfolio_img {
     box-shadow: 1px 1px 2px silver;
     border-radius: 20px;
@@ -67,6 +61,10 @@ section article:nth-of-type(2) {
 
 #drive {
     margin-bottom: 30px;
+}
+
+#car {
+    margin-left: -30px;
 }
 
 #arrow:hover {
@@ -95,8 +93,13 @@ ul {
         margin-top: -30px;
     }
 
-    #blindly {
+    #car {
+        margin-left: 0px;
         margin-top: -40px;
+    }
+
+    #blindly {
+        margin-top: -50px;
     }
 
     .project_about {
