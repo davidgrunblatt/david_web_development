@@ -113,6 +113,32 @@ class Work extends React.Component{
                         </div>
                     </article>
                 </section>
+
+                {/* CARS */}
+                <section>
+                    <article id = 'blindly' className = 'project'>
+                        <div>
+                            <a href = 'https://www.ragingbull-performance.com/Index.aspx' target = '_blank'>
+                                <img className = 'portfolio_img' src = {require('../images/carIMG.png')} alt = '' />
+                            </a>
+                        </div>
+                        <div className = 'project_about'>
+                            <h4>Raging Bull Automotive</h4>
+                            <ul className = 'work_margin'>
+                                <li><span>Technologies used:</span> </li>
+                                <li className = 'badge'>C#</li>
+                                <li className = 'badge'>.NET</li>
+                            </ul> 
+                            <p className = 'work_margin'>
+                                This is a landing page built using C# for Raging Bull automotive. 
+                                <br />
+                                <a href = 'https://www.ragingbull-performance.com/Index.aspx' target = '_blank'>
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                </a>
+                            </p>
+                        </div>
+                    </article>
+                </section>
             </div>
         )
     }

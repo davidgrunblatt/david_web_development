@@ -24,7 +24,6 @@ import responsive_img from './images/responsive.jpg';
 import javascript_header from './images/javascript.png'; 
 import about_header from './images/about2.png'; 
 import work_header from './images/work2.png'; 
-import david from './images/david.png'; 
 
 class App extends React.Component{
     constructor(props){
@@ -38,7 +37,6 @@ class App extends React.Component{
             work_header,
             javascript_string: 'I specialize in using cutting edge JavaScript to make fast and dynamic web applications.',
             about_header,
-            david
         }
     }
 
@@ -75,9 +73,6 @@ class App extends React.Component{
             if (document.documentElement.scrollTop > 1400 || document.body.scrollTop > 1400){
                     about.classList.remove('out');
                     about.classList.add('in');
-                    // links[0].style.color = "rgb(255, 123, 0)"; 
-                    // links[1].style.color = 'black';
-                    // links[2].style.color = 'black';
             }   
         })
     }

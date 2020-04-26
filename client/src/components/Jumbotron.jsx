@@ -1,7 +1,6 @@
 import React from 'react';
 
 class Jumbotron extends React.Component{
-
     // COMPONENT DID MOUNT 
     componentDidMount(){
         const nav = document.querySelector('.nav-bar');
