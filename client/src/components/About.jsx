@@ -23,7 +23,7 @@ const About = (props) => {
                     <h5>Skills</h5>
                     <p><span>Languages:</span> JavaScript, PHP, Swift</p>
                     <p><span>Front End:</span> HTML, CSS, SCSS, Bootstrap, jQuery, JavaScript</p>
-                    <p><span>Back End:</span> Node.js, MySQL</p>
+                    <p><span>Back End:</span> Node.js, PHP, MySQL</p>
                     <p><span>Web Frameworks:</span> ASP.NET, Laravel, React.js</p>
                     <p><span>Other Skills / Tools:</span> Git, AWS, Heroku, Adobe Photoshop, AdobeXD, Prototyping</p>
                     <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
