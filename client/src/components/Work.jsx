@@ -118,12 +118,12 @@ class Work extends React.Component{
                 <section id="car">
                     <article className = 'project'>
                         <div>
-                            <a href = 'https://www.ragingbull-performance.com/Index.aspx' target = '_blank'>
-                                <img className = 'portfolio_img' src = {require('../images/carIMG.png')} alt = '' />
+                            <a href = 'https://orofinobodyshop.com/' target = '_blank'>
+                                <img className = 'portfolio_img' src = {require('../images/orofino.png')} alt = '' />
                             </a>
                         </div>
                         <div className = 'project_about'>
-                            <h4>Raging Bull Automotive</h4>
+                            <h4>Orofino Body Shop</h4>
                             <p><span>Role: </span> Web Developer</p>
                             <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>
@@ -131,15 +131,68 @@ class Work extends React.Component{
                                 <li className = 'badge'>.NET</li>
                             </ul> 
                             <p className = 'work_margin'>
-                                This is a landing page built using C# for Raging Bull automotive. 
+                                This is a web app built using C# / ASP.NET for Orofino Body Shop. 
                                 <br />
-                                <a href = 'https://www.ragingbull-performance.com/Index.aspx' target = '_blank'>
+                                <a href = 'https://orofinobodyshop.com/' target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>
                         </div>
                     </article>
                 </section>
+                {/* Huron Auto Body below */}
+                <section id="car">
+                    <article className = 'project'>
+                        <div>
+                            <a href = 'https://www.huronautobodyclinic.com/' target = '_blank'>
+                                <img className = 'portfolio_img' src = {require('../images/autobody.png')} alt = '' />
+                            </a>
+                        </div>
+                        <div className = 'project_about'>
+                            <h4>Huron Auto Body Clinic</h4>
+                            <p><span>Role: </span> Web Developer</p>
+                            <ul className = 'work_margin'>
+                                <li><span>Technologies used:</span> </li>
+                                <li className = 'badge'>C#</li>
+                                <li className = 'badge'>.NET</li>
+                            </ul> 
+                            <p className = 'work_margin'>
+                                This is a web app built using C# / ASP.NET for Huron Auto Body Clinic. 
+                                <br />
+                                <a href = 'https://www.huronautobodyclinic.com/' target = '_blank'>
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                </a>
+                            </p>
+                        </div>
+                    </article>
+                </section>
+                {/* Barb City Automotive below */}
+                <section id="car">
+                    <article className = 'project'>
+                        <div>
+                            <a href = 'https://www.barbcityautomotive.net/' target = '_blank'>
+                                <img className = 'portfolio_img' src = {require('../images/barb.png')} alt = '' />
+                            </a>
+                        </div>
+                        <div className = 'project_about'>
+                            <h4>Barb City Automotive</h4>
+                            <p><span>Role: </span> Web Developer</p>
+                            <ul className = 'work_margin'>
+                                <li><span>Technologies used:</span> </li>
+                                <li className = 'badge'>C#</li>
+                                <li className = 'badge'>.NET</li>
+                            </ul> 
+                            <p className = 'work_margin'>
+                                This is a web app built using C# / ASP.NET for Barb City Automotive. 
+                                <br />
+                                <a href = 'https://www.barbcityautomotive.net/' target = '_blank'>
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                </a>
+                            </p>
+                        </div>
+                    </article>
+                </section>
+                
             </div>
         )
     }
