@@ -124,7 +124,6 @@ class Work extends React.Component{
                         </div>
                         <div className = 'project_about'>
                             <h4>Huron Auto Body Clinic</h4>
-                            <p><span>Role: </span> Web Developer</p>
                             <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>
                                 <li className = 'badge'>C#</li>
