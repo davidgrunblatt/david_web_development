@@ -141,33 +141,6 @@ class Work extends React.Component{
                     </article>
                 </section>
 
-                {/* Orofino */}
-                <section id="car">
-                    <article className = 'project'>
-                        <div>
-                            <a href = 'https://orofinobodyshop.com/' target = '_blank'>
-                                <img className = 'portfolio_img' src = {require('../images/orofino.png')} alt = '' />
-                            </a>
-                        </div>
-                        <div className = 'project_about'>
-                            <h4>Orofino Body Shop</h4>
-                            <p><span>Role: </span> Web Developer</p>
-                            <ul className = 'work_margin'>
-                                <li><span>Technologies used:</span> </li>
-                                <li className = 'badge'>C#</li>
-                                <li className = 'badge'>.NET</li>
-                            </ul> 
-                            <p className = 'work_margin'>
-                                This is a web app built using C# / ASP.NET for Orofino Body Shop. 
-                                <br />
-                                <a href = 'https://orofinobodyshop.com/' target = '_blank'>
-                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                                </a>
-                            </p>
-                        </div>
-                    </article>
-                </section>
-                
             </div>
         )
     }
