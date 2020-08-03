@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2be50852e760c7a6e2a861ef2b39b69c",
+    "revision": "e91ed33bdc1bda3c4101b171a6c8e9c1",
     "url": "/index.html"
   },
   {
-    "revision": "1fbb2ed87c1c3510aacb",
+    "revision": "5630472a8267e1b20947",
     "url": "/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "5ac4460e322852dedb17",
+    "revision": "20f4097323dd6ef3a00b",
     "url": "/static/css/main.b8013069.chunk.css"
   },
   {
-    "revision": "1fbb2ed87c1c3510aacb",
-    "url": "/static/js/2.34db8801.chunk.js"
+    "revision": "5630472a8267e1b20947",
+    "url": "/static/js/2.8404192f.chunk.js"
   },
   {
-    "revision": "5ac4460e322852dedb17",
-    "url": "/static/js/main.7ecbcc23.chunk.js"
+    "revision": "20f4097323dd6ef3a00b",
+    "url": "/static/js/main.53dc4239.chunk.js"
   },
   {
     "revision": "010ed06030a4deec06a2",
@@ -66,10 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "155b42c91749e8a3abe18b304edc0c78",
     "url": "/static/media/mern.155b42c9.jpg"
-  },
-  {
-    "revision": "53283517144300fa898de97962639f29",
-    "url": "/static/media/orofino.53283517.png"
   },
   {
     "revision": "811ba796df18b01cf70c1e4bb48fb857",
