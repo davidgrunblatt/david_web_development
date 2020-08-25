@@ -11,7 +11,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(helmet());
 app.use(compression()); 
 app.use('/api/mail', mail); 
-app.use('/api/cdn', cdn); 
+
+app.get('/api/cdn', (req, res) => {
+  res.sendFile(__dirname + '/routes/script.js');
+});
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
