@@ -1,7 +1,7 @@
 
 // mongo setup
 
-const tires = [
+module.exports = [
     {
         id: 0,
         name: 'Michelin',

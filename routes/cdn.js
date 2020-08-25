@@ -1,8 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
+const tires = require('./script');
+
 router.get('/', (req, res) => {
-    res.sendFile(__dirname + '/script.js');
+    res.send(tires);
 });
 
 module.exports = router;
