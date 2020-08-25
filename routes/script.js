@@ -1,13 +1,4 @@
 
-// mongo setup
-const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://dpg1919:Claptoncocaine13@cluster0.8wsvv.mongodb.net/<dbname>?retryWrites=true&w=majority', {
-    useUnifiedTopology: true,
-    useNewUrlParser: true
-}, () => {
-    console.log('The mongoose is out!');
-});
-
 const tires = [
     {
         id: 0,
