@@ -3,7 +3,6 @@ const router = express.Router();
 const nodemailer = require('nodemailer'); 
 
 router.post('/', async (req,res) => {
-
     const new_user = {
         name: req.body.name,
         subject: req.body.subject,
@@ -33,7 +32,6 @@ router.post('/', async (req,res) => {
               </p>` // html body
         });
 
-        console.log('Message Sent!');
         res.send('Delivered!');
     }
     catch (err) {

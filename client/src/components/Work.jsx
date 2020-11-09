@@ -5,6 +5,35 @@ class Work extends React.Component{
         return(
             <div id = 'portfolio' className = 'silver'>
                 <img className = 'header' src = {this.props.work} alt = 'contact header' />
+
+                {/* Drive  */}
+                <section id = "drive">
+                    <article className = 'project'>
+                        <div>
+                            <a href = 'https://drivewebpros.com/' target = '_blank'>
+                                <img className = 'portfolio_img' src = {require('../images/driveIMG.png')} alt = 'drive web pros' />
+                            </a>
+                        </div>
+                        <div className = 'project_about'>
+                            <h4>Drive</h4>
+                            <p><span>Role: </span> Full Stack Web Developer</p>
+                            <ul className = 'work_margin'>
+                                <li><span>Technologies used:</span> </li>
+                                <li className = 'badge'>C# / .NET</li>
+                                <li className = 'badge'>SQL</li>
+                            </ul> 
+                            <p className = 'work_margin'>
+                                Drive WebPros is a full-service website, marketing, and design team dedicated to increasing 
+                                business for clients. 
+                                <br />
+                                <a href = 'https://drivewebpros.com/' target = '_blank'>
+                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                                </a>
+                            </p>
+                        </div>
+                    </article>
+                </section>
+
                 <section>
                     <article className = 'project'>
                         <div>
@@ -13,7 +42,7 @@ class Work extends React.Component{
                             </a>
                         </div>
                         <div className = 'project_about'>
-                            <h4>Furelos Clinic</h4>
+                            <h4>Furelos Clinic Online</h4>
                             <p>
                                 This is a full stack web application made with the purpose of connecting users
                                 to their physician. This app accomplishes this by offering live
@@ -55,34 +84,6 @@ class Work extends React.Component{
                     </article>
                 </section>
 
-                {/* Drive  */}
-                <section id = "drive">
-                    <article className = 'project'>
-                        <div>
-                            <a href = 'https://drivewebpros.com/' target = '_blank'>
-                                <img className = 'portfolio_img' src = {require('../images/driveIMG.png')} alt = 'drive web pros' />
-                            </a>
-                        </div>
-                        <div className = 'project_about'>
-                            <h4>Drive</h4>
-                            <p><span>Role: </span> Web Developer</p>
-                            <ul className = 'work_margin'>
-                                <li><span>Technologies used:</span> </li>
-                                <li className = 'badge'>C# / .NET</li>
-                                <li className = 'badge'>SQL</li>
-                            </ul> 
-                            <p className = 'work_margin'>
-                                Drive WebPros is a full-service website, marketing, and design team dedicated to increasing 
-                                business for clients. 
-                                <br />
-                                <a href = 'https://drivewebpros.com/' target = '_blank'>
-                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                                </a>
-                            </p>
-                        </div>
-                    </article>
-                </section>
-
                 {/* BLINDLY  */}
                 <section>
                     <article id = 'blindly' className = 'project'>
@@ -107,32 +108,6 @@ class Work extends React.Component{
                                 possible.
                                 <br />
                                 <a href = 'https://blindlydate.com/' target = '_blank'>
-                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                                </a>
-                            </p>
-                        </div>
-                    </article>
-                </section>
-
-                {/* Huron Auto Body below */}
-                <section id="car">
-                    <article className = 'project'>
-                        <div>
-                            <a href = 'https://www.huronautobodyclinic.com/' target = '_blank'>
-                                <img className = 'portfolio_img' src = {require('../images/autobody.png')} alt = '' />
-                            </a>
-                        </div>
-                        <div className = 'project_about'>
-                            <h4>Huron Auto Body Clinic</h4>
-                            <ul className = 'work_margin'>
-                                <li><span>Technologies used:</span> </li>
-                                <li className = 'badge'>C#</li>
-                                <li className = 'badge'>.NET</li>
-                            </ul> 
-                            <p className = 'work_margin'>
-                                This is a web app built using C# / ASP.NET for Huron Auto Body Clinic. 
-                                <br />
-                                <a href = 'https://www.huronautobodyclinic.com/' target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>
