@@ -4,7 +4,7 @@ const router = express.Router();
 const tires = require('./script');
 
 router.get('/', (req, res) => {
-    res.send(JSON.stringify(tires));
+    res.send(tires);
 });
 
 module.exports = router;

@@ -25,7 +25,7 @@ router.post('/', async (req,res) => {
         // send mail with defined transport object
         let info = await transporter.sendMail({
         from: new_user.name, // sender address
-        to: "dpg1919@gmail.com", // list of receivers
+        to: process.env.email, // list of receivers
         subject: new_user.subject, // Subject line
         text: '', // plain text body
         html: `<p>name: ${new_user.name} <br/>
@@ -34,9 +34,11 @@ router.post('/', async (req,res) => {
         });
 
         console.log('Message Sent!');
+        res.send('Delivered!');
     }
     catch (err) {
         console.log("ERROR SENDING EMAIL", err); 
+        res.status(404).send(err);
     }
 }); 
 
