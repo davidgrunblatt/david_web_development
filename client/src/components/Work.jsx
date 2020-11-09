@@ -127,7 +127,6 @@ class Work extends React.Component{
                         </div>
                     </article>
                 </section>
-
             </div>
         )
     }
