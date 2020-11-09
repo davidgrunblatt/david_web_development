@@ -80,7 +80,7 @@ ul {
 
 
 // MEDIA QUERIES
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .project_about {
         max-width: 500px;
     }
@@ -88,5 +88,13 @@ ul {
     section article img {
         width: 280px;
         height: 200px;
+    }
+
+    section {
+        margin-bottom: 5px;
+    }
+
+    #furelos {
+        margin-top:-30px !important;
     }
 }

@@ -47,7 +47,7 @@ class Work extends React.Component{
                     </article>
                 </section>
 
-                <section>
+                <section id="furelos">
                     <article className = 'project'>
                         <div>
                             <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>

@@ -11,19 +11,18 @@ const About = (props) => {
                 <p>
                     <br />
                     My name is David Grunblatt I'm an up and coming web developer in Los Angeles, CA.
+                    Upon graduation I was hired by a business consulting firm where I work
+                    with a fantastic team of colleagues to create and maintain over 400+ websites and applications for a wide 
+                    variety of clients.
                     <br/><br/>
                     Sophmore year of college I was introduced to the world of programming and fell in love with the 
                     ability to create whatever I could envision. Today, I'm a passionate developer commited to life long learning, 
                     constantlg trying to expand my skillset. Whether I'm building an API or a beautiful user interface I 
                     take great pride in hand crafting my work from wireframes all the way to deployment. 
                     <br /><br />
-                    Upon graduation I was hired by a business consulting firm where I work
-                    with a fantastic team of colleagues to create and maintain over 400+ websites and applications for a wide 
-                    variety of clients.
-                    <br/><br/>
                     When I'm not writing code I'm working on my hobbies. My other two passions in life aside from web development
                     are playing music (instruments: violin, guitar) and indoor rock climbing. Like with coding I take great pride in 
-                    working on and enhancing my skills as I derive great satisfaction from the feeling of progress.
+                    working on and enhancing my skills.
                 </p>
             </div>
             <div className = 'about_skills margin'>
