@@ -63,12 +63,6 @@ class Work extends React.Component{
                                 to their surgeon. This app accomplishes this by offering live video conference services, 
                                 as well as the ability to share files, make appointments, and update information in real time. 
                                 <br />
-                                <a href = 'https://github.com/davidgrunblatt/medicalOnline' target = '_blank'>
-                                    <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
-                                </a>
-                                <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
-                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                                </a>
                             </p>
                             <ul>
                                 <li><span>Features: </span></li>
@@ -94,6 +88,10 @@ class Work extends React.Component{
                                 <li className = 'badge'>Mongoose</li>
                                 <li className = 'badge'>Heroku</li>
                             </ul>
+                            <br /><br />
+                            <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
+                              <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                            </a>
                         </div>
                     </article>
                 </section>
