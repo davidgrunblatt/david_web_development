@@ -22,7 +22,10 @@ const Articles = (props) => {
                 </div>
                 <div className = 'article_item out'>
                     <img className = 'header' src = {props.js_header} alt = 'logo'/>
-                    <p>{props.js_string}</p>
+                    <p>
+                        I specialize in using cutting edge JavaScript to create fast and dynamic web <br />
+                        applications tailored to fit my clients needs.
+                    </p>
                 </div>
             </div>
         </div>

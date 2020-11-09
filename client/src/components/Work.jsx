@@ -18,14 +18,28 @@ class Work extends React.Component{
                             <h4>Drive</h4>
                             <p><span>Role: </span> Full Stack Web Developer</p>
                             <ul className = 'work_margin'>
-                                <li><span>Technologies used:</span> </li>
+                                <li><span>Technologies / Skills used:</span> </li>
+                                <li className = 'badge'>HTML</li>
+                                <li className = 'badge'>CSS</li>
+                                <li className = 'badge'>jQuery</li>
+                                <li className = 'badge'>JavaScript</li>
                                 <li className = 'badge'>C# / .NET</li>
-                                <li className = 'badge'>SQL</li>
+                                <li className = 'badge'>Progressive Web Apps</li>
+                                <li className = 'badge'>Azure</li>
+                                <li className = 'badge'>MongoDB</li>
+                                <li className = 'badge'>Photoshop</li>
+                                <li className = 'badge'>Search engine optimization</li>
                             </ul> 
                             <p className = 'work_margin'>
-                                Drive WebPros is a full-service website, marketing, and design team dedicated to increasing 
-                                business for clients. 
-                                <br />
+                                Drive is a business consulting firm dedicated to increasing business for clients. 
+                                They do it all: Customized Web Development, SEO Marketing, Web consulting, 
+                                Digital Marketing & Advertising, Social Media Management, Vehicle Listing App and much more.
+                                <br /><br />
+                                In my time as a web developer at Drive I've had the opportunity to work in a fast paced
+                                environment where my skills were put to the test as our team of developers created, maintained,
+                                and upgraded a list of over 400+ websites and applications for a wide variety of clients.
+                                <br /><br />
+
                                 <a href = 'https://drivewebpros.com/' target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
@@ -44,10 +58,10 @@ class Work extends React.Component{
                         <div className = 'project_about'>
                             <h4>Furelos Clinic Online</h4>
                             <p>
-                                This is a full stack web application made with the purpose of connecting users
-                                to their physician. This app accomplishes this by offering live
-                                video conference services as well as the ability to share files, make appointments, and update 
-                                information in real time. 
+                                The Furelos Clinic is a world renowned facial reconstruction surgery center. 
+                                This full stack web application is made with the purpose of connecting users
+                                to their surgeon. This app accomplishes this by offering live video conference services, 
+                                as well as the ability to share files, make appointments, and update information in real time. 
                                 <br />
                                 <a href = 'https://github.com/davidgrunblatt/medicalOnline' target = '_blank'>
                                     <img className = 'github' src = {require('../images/github.png')} alt = 'github' />
@@ -58,10 +72,10 @@ class Work extends React.Component{
                             </p>
                             <ul>
                                 <li><span>Features: </span></li>
-                                <li className = 'badge'>Live video chat</li>
-                                <li className = 'badge'>JWT Authentication</li>
+                                <li className = 'badge'>Realtime video chat</li>
+                                <li className = 'badge'>Authentication / Authorization</li>
                                 <li className = 'badge'>Account registration - CRUD operations</li>
-                                <li className = 'badge'>File uploads</li>
+                                <li className = 'badge'>File Sharing</li>
                                 <li className = 'badge'>Appointment maker</li>
                                 <li className = 'badge'>Email correspondence</li>
                             </ul>
@@ -98,14 +112,17 @@ class Work extends React.Component{
                             <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>
                                 <li className = 'badge'>React Native</li>
-                                <li className = 'badge'>AWS</li>
                                 <li className = 'badge'>MongoDB</li>
+                                <li className = 'badge'>Jest</li>
+                                <li className = 'badge'>SQLite</li>
+                                <li className = 'badge'>AWS</li>
                             </ul> 
                             <p className = 'work_margin'>
                                 Blindly is a startup based in the Bay Area seeking to revolutionize 
-                                the mobile dating scene. I've had the pleasure of working with an energetic 
-                                and enthusiastic team in an effort to provide users with the best experience 
-                                possible.
+                                the mobile dating app scene. I had the pleasure of working with an energetic 
+                                team striving to provide users with the best dating experience possible.
+                                My time at Blindly was spent refactoring the UI to enhance both
+                                user experience and application performance.
                                 <br />
                                 <a href = 'https://blindlydate.com/' target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />

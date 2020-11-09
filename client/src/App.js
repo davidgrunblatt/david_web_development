@@ -35,7 +35,7 @@ class App extends React.Component{
             responsive_string: 'Look great on any platform, from mobile to desktop.',
             javascript_header,
             work_header,
-            javascript_string: 'I specialize in using cutting edge JavaScript to make fast and dynamic web applications.',
+            javascript_string: 'I specialize in using cutting edge JavaScript to create fast and dynamic web applications tailored to fit my clients needs.',
             about_header,
         }
     }
