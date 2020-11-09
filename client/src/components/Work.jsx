@@ -38,8 +38,7 @@ class Work extends React.Component{
                                 In my time as a web developer at Drive I've had the opportunity to work in a fast paced
                                 environment where my skills were put to the test as our team of developers created, maintained,
                                 and upgraded a list of over 400+ websites and applications for a wide variety of clients.
-                                <br /><br />
-
+                                <br />
                                 <a href = 'https://drivewebpros.com/' target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
@@ -88,7 +87,6 @@ class Work extends React.Component{
                                 <li className = 'badge'>Mongoose</li>
                                 <li className = 'badge'>Heroku</li>
                             </ul>
-                            <br />
                             <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
                               <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                             </a>
@@ -105,7 +103,7 @@ class Work extends React.Component{
                             </a>
                         </div>
                         <div className = 'project_about'>
-                            <h4>Blindly</h4>
+                            <h4>Blindly Dating App</h4>
                             <p><span>Role: </span> Full Stack Developer</p>
                             <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>

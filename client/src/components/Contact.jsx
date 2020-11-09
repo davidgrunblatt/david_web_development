@@ -92,21 +92,21 @@ class Contact extends Component{
 
                     <form id = 'form' onSubmit = {this.makePostReq}>
                        <div className = 'form-group'>
-                            <label htmlFor = 'name'>Name:</label>
-                            <input type = 'text' name = 'name' onChange = {this.handleChange} className = 'form-control' value = {this.state.name} required/>
+                            <label htmlFor = 'subject'>Name:</label>
+                            <input placeholder="Full name" type = 'text' name = 'name' onChange = {this.handleChange} className = 'form-control' value = {this.state.name} required/>
                        </div>
                        <div className = 'form-group'>
                             <label htmlFor = 'subject'>Subject:</label>
-                            <input type = 'text' name = 'subject' onChange = {this.handleChange} className = 'form-control' value = {this.state.subject} required/>
+                            <input placeholder="Subject" type = 'text' name = 'subject' onChange = {this.handleChange} className = 'form-control' value = {this.state.subject} required/>
                        </div>
                        <div className = 'form-group'>
                             <label htmlFor = 'message'>Message:</label>
-                            <textarea type = 'text' name = 'message' onChange = {this.handleChange} className = 'form-control' value = {this.state.message} required></textarea>
+                            <textarea placeholder="Your message for David" type = 'text' name = 'message' onChange = {this.handleChange} className = 'form-control' value = {this.state.message} required></textarea>
                        </div>
                         <button type = 'submit' style = {{color: 'white'}} className = 'btn btn-sm btn-block'>{this.state.sent === true ? "Sent!" : "Send"}</button>
                     </form>
                     <span className = 'm-4'>
-                        <a href = 'mailto:dpg1919@gmail.com'>
+                        <a href = 'mailto:davidgwebdevelopment.com'>
                             <img className = 'mt-4' style = {icon_style} src = {require('../images/email.png')} alt = 'email'/>
                         </a>
                     </span>
