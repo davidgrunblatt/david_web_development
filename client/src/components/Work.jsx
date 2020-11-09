@@ -88,7 +88,7 @@ class Work extends React.Component{
                                 <li className = 'badge'>Mongoose</li>
                                 <li className = 'badge'>Heroku</li>
                             </ul>
-                            <br /><br />
+                            <br />
                             <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
                               <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                             </a>
