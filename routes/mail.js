@@ -12,7 +12,7 @@ router.post('/', async (req,res) => {
 
     try {
         // create reusable transporter object using the default SMTP transport
-        let transporter = await nodemailer.createTransport({
+        let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
         port: 587,
         secure: false, // true for 465, false for other ports
@@ -38,7 +38,7 @@ router.post('/', async (req,res) => {
     }
     catch (err) {
         console.log("ERROR SENDING EMAIL", err); 
-        res.status(404).send(err);
+        res.status(400).send(err);
     }
 }); 
 
