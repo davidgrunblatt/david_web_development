@@ -28,6 +28,7 @@ $orange: rgb(255, 123, 0);
     .work_margin {
        margin-top: -10px; 
     }
+
 }
 
 .project_about {
@@ -77,8 +78,6 @@ ul {
     }
 }
 
-
-
 // MEDIA QUERIES
 @media screen and (max-width: 768px){
     .project_about {
@@ -92,9 +91,5 @@ ul {
 
     section {
         margin-bottom: 5px;
-    }
-
-    #furelos {
-        margin-top:-30px !important;
     }
 }
