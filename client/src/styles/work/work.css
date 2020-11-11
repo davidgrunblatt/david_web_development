@@ -103,24 +103,25 @@ ul li {
   padding: 5px;
 }
 
-@media screen and (max-width: 767px) {
-  #drive {
-    margin-top: -30px;
-  }
-  #car {
-    margin-left: 0px;
-    margin-top: -40px;
-  }
-  #blindly {
-    margin-top: -50px;
-  }
-  .project_about {
-    max-width: 500px;
-    margin-top: -10px !important;
-  }
-  section article img {
-    width: 280px;
-    height: 200px;
-  }
+@media screen and (max-width: 768px){
+    .project_about {
+        max-width: 500px;
+    }
+
+    section article img {
+        width: 280px;
+        height: 200px;
+    }
+
+    section {
+        margin-bottom: 5px;
+    }
+    
+    #drive {
+        margin-top: 10px;
+    }
+    
+    #furelos {
+        margin-top:-30px !important;
+    }
 }
-/*# sourceMappingURL=work.css.map */

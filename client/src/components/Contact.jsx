@@ -93,15 +93,15 @@ class Contact extends Component{
                     <form id = 'form' onSubmit = {this.makePostReq}>
                        <div className = 'form-group'>
                             <label htmlFor = 'subject'>Name:</label>
-                            <input placeholder="Full name" type = 'text' name = 'name' onChange = {this.handleChange} className = 'form-control' value = {this.state.name} required/>
+                            <input placeholder="full name" type = 'text' name = 'name' onChange = {this.handleChange} className = 'form-control' value = {this.state.name} required/>
                        </div>
                        <div className = 'form-group'>
                             <label htmlFor = 'subject'>Subject:</label>
-                            <input placeholder="Subject" type = 'text' name = 'subject' onChange = {this.handleChange} className = 'form-control' value = {this.state.subject} required/>
+                            <input placeholder="subject" type = 'text' name = 'subject' onChange = {this.handleChange} className = 'form-control' value = {this.state.subject} required/>
                        </div>
                        <div className = 'form-group'>
                             <label htmlFor = 'message'>Message:</label>
-                            <textarea placeholder="Your message for David" type = 'text' name = 'message' onChange = {this.handleChange} className = 'form-control' value = {this.state.message} required></textarea>
+                            <textarea placeholder="your message for David" type = 'text' name = 'message' onChange = {this.handleChange} className = 'form-control' value = {this.state.message} required></textarea>
                        </div>
                         <button type = 'submit' style = {{color: 'white'}} className = 'btn btn-sm btn-block'>{this.state.sent === true ? "Sent!" : "Send"}</button>
                     </form>
