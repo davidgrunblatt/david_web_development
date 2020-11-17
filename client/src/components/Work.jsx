@@ -98,7 +98,7 @@ class Work extends React.Component{
                 <section>
                     <article id = 'blindly' className = 'project'>
                         <div>
-                            <a href = 'https://blindlydate.com/' target = '_blank'>
+                            <a target = '_blank'>
                                 <img className = 'portfolio_img' src = {require('../images/blindlyScreen.png')} alt = '' />
                             </a>
                         </div>
@@ -120,7 +120,7 @@ class Work extends React.Component{
                                 My time at Blindly was spent refactoring the UI to enhance both
                                 user experience and application performance.
                                 <br />
-                                <a href = 'https://blindlydate.com/' target = '_blank'>
+                                <a target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                                 </a>
                             </p>

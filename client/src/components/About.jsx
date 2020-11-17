@@ -16,7 +16,7 @@ const About = (props) => {
                     colleagues to create and maintain over 400+ websites and applications for a wide variety of clients.
                     <br/><br/>
                     This experience exposed me to every aspect of a websites development cycle: from design, to deployment
-                    and evreything in between like adding accessibility and optimizing for Search engine optimization.
+                    and everything in between like adding accessibility and optimizing for Search engine optimization.
                     <br /><br />
                     Today, I'm a passionate developer commited to life long learning, 
                     constantlg trying to expand my skillset. Whether I'm building an API or a beautiful user interface I 
