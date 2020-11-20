@@ -22,7 +22,7 @@ const Articles = (props) => {
                 </div>
                 <div className = 'article_item out'>
                     <img className = 'header' src = {props.js_header} alt = 'logo'/>
-                    <p>
+                    <p style={{maxWidth: "550px"}}>
                         I specialize in using cutting edge JavaScript to create fast and dynamic web 
                         applications.
                     </p>
