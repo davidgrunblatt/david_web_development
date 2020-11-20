@@ -24,7 +24,7 @@ const Articles = (props) => {
                     <img className = 'header' src = {props.js_header} alt = 'logo'/>
                     <p>
                         I specialize in using cutting edge JavaScript to create fast and dynamic web <br />
-                        applications tailored to fit my clients needs.
+                        applications.
                     </p>
                 </div>
             </div>
