@@ -50,7 +50,7 @@ class Work extends React.Component{
                 <section id="furelos">
                     <article className = 'project'>
                         <div>
-                            <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
+                            <a href ='https://www.furelos-online.com/' target = '_blank'>
                                 <img className = 'portfolio_img' src = {require('../images/portfolio2.png')} alt = '' />
                             </a>
                         </div>
@@ -87,7 +87,7 @@ class Work extends React.Component{
                                 <li className = 'badge'>Mongoose</li>
                                 <li className = 'badge'>Heroku</li>
                             </ul>
-                            <a href = 'https://clinicafurelos.herokuapp.com/' target = '_blank'>
+                            <a href = 'https://www.furelos-online.com/' target = '_blank'>
                               <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
                             </a>
                         </div>
@@ -95,7 +95,7 @@ class Work extends React.Component{
                 </section>
 
                 {/* BLINDLY  */}
-                <section>
+                {/* <section>
                     <article id = 'blindly' className = 'project'>
                         <div>
                             <a target = '_blank'>
@@ -120,13 +120,10 @@ class Work extends React.Component{
                                 My time at Blindly was spent refactoring the UI to enhance both
                                 user experience and application performance.
                                 <br />
-                                {/* <a target = '_blank'>
-                                    <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                                </a> */}
                             </p>
                         </div>
                     </article>
-                </section>
+                </section> */}
             </div>
         )
     }

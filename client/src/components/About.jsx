@@ -27,12 +27,12 @@ const About = (props) => {
             <div className = 'about_skills margin'>
                 <div>
                     <h5>Skills</h5>
-                    <p><span>Languages:</span> JavaScript, Python</p>
-                    <p><span>Front End:</span> HTML, CSS, SCSS, Bootstrap, jQuery, JavaScript</p>
+                    <p><span>Front End:</span> HTML, CSS, SCSS, jQuery, JavaScript</p>
                     <p><span>Web Frameworks:</span> React.js w/ Redux</p>
+                    <p><span>Server Side:</span> Node.js / Express, Golang, PHP</p>
+                    <p><span>DB's:</span> SQL, NoSQL</p>
                     <p><span>E-Commerce:</span> Shopify</p>
-                    <p><span>Back End:</span> Node.js, Flask, MongoDB, PostgreSQL</p>
-                    <p><span>Other Skills / Tools:</span> Search Engine Optimization, Prototyping, Photoshop</p>
+                    <p><span>Other:</span> GIT, SEO, AdobeXD, Photoshop</p>
                     <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
                         <img className = 'github shadow' src = {github} alt = 'github icon' />
                     </a>
