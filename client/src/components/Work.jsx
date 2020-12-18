@@ -95,16 +95,15 @@ class Work extends React.Component{
                 </section>
 
                 {/* BLINDLY  */}
-                {/* <section>
+                <section>
                     <article id = 'blindly' className = 'project'>
                         <div>
-                            <a target = '_blank'>
+                            <a target = '_blank' href="https://www.blindly.date/">
                                 <img className = 'portfolio_img' src = {require('../images/blindlyScreen.png')} alt = '' />
                             </a>
                         </div>
                         <div className = 'project_about'>
-                            <h4>Blindly Dating App</h4>
-                            <p><span>Role: </span> Full Stack Developer</p>
+                            <h4>Blindly</h4>
                             <ul className = 'work_margin'>
                                 <li><span>Technologies used:</span> </li>
                                 <li className = 'badge'>React Native</li>
@@ -121,9 +120,12 @@ class Work extends React.Component{
                                 user experience and application performance.
                                 <br />
                             </p>
+                            <a href = 'https://www.blindly.date/' target = '_blank'>
+                                <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+                            </a>
                         </div>
                     </article>
-                </section> */}
+                </section>
             </div>
         )
     }

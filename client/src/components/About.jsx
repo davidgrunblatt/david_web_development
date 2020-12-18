@@ -29,13 +29,9 @@ const About = (props) => {
                     <h5>Skills</h5>
                     <p><span>Front End:</span> HTML, CSS, SCSS, jQuery, JavaScript</p>
                     <p><span>Web Frameworks:</span> React.js w/ Redux</p>
-                    <p><span>Server Side:</span> Node.js / Express, Golang, PHP</p>
+                    <p><span>Server Side:</span> Node.js / Express, PHP</p>
                     <p><span>DB's:</span> SQL, NoSQL</p>
-                    <p><span>E-Commerce:</span> Shopify</p>
                     <p><span>Other:</span> GIT, SEO, AdobeXD, Photoshop</p>
-                    <a href = 'https://github.com/davidgrunblatt' target = '_blank'>
-                        <img className = 'github shadow' src = {github} alt = 'github icon' />
-                    </a>
                 </div>
                 <div>
                     <img className = 'about_fullstack' src = {fullstack_img} alt = 'fullstack icon'/> 
