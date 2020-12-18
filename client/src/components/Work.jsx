@@ -31,10 +31,6 @@ class Work extends React.Component{
                                 <li className = 'badge'>Search engine optimization</li>
                             </ul> 
                             <p className = 'work_margin'>
-                                Drive is a business consulting firm dedicated to increasing business for clients. 
-                                They do it all: Customized Web Development, SEO Marketing, Web consulting, 
-                                Digital Marketing, Advertising & Social Media Management.
-                                <br /><br />
                                 In my time as a web developer at Drive I've worked in a fast paced
                                 environment where my skills are put to the test as we create, update,
                                 and provide technical support for over 400+ websites and applications from a wide variety of clients. 
