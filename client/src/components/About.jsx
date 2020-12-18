@@ -30,7 +30,7 @@ const About = (props) => {
                     <p><span>Front End:</span> HTML, CSS, SCSS, jQuery, JavaScript</p>
                     <p><span>Web Frameworks:</span> React.js w/ Redux</p>
                     <p><span>Server Side:</span> Node.js / Express, PHP</p>
-                    <p><span>DB's:</span> SQL, NoSQL</p>
+                    <p><span>DB's:</span> SQL, NoSQL </p>
                     <p><span>Other:</span> GIT, SEO, AdobeXD, Photoshop</p>
                 </div>
                 <div>
