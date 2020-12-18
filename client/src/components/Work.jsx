@@ -33,11 +33,11 @@ class Work extends React.Component{
                             <p className = 'work_margin'>
                                 Drive is a business consulting firm dedicated to increasing business for clients. 
                                 They do it all: Customized Web Development, SEO Marketing, Web consulting, 
-                                Digital Marketing & Advertising, Social Media Management, Vehicle Listing App and much more.
+                                Digital Marketing, Advertising & Social Media Management.
                                 <br /><br />
-                                In my time as a web developer at Drive I've had the opportunity to work in a fast paced
-                                environment where my skills were put to the test as our team of developers created, maintained,
-                                and upgraded a list of over 400+ websites and applications for a wide variety of clients.
+                                In my time as a web developer at Drive I've worked in a fast paced
+                                environment where my skills are put to the test as we create, update,
+                                and provide technical support for over 400+ websites and applications from a wide variety of clients. 
                                 <br />
                                 <a href = 'https://drivewebpros.com/' target = '_blank'>
                                     <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
@@ -113,9 +113,8 @@ class Work extends React.Component{
                                 <li className = 'badge'>AWS</li>
                             </ul> 
                             <p className = 'work_margin'>
-                                Blindly is a startup based in the Bay Area seeking to revolutionize 
-                                the mobile dating app scene. I had the pleasure of working with an energetic 
-                                team striving to provide users with the best dating experience possible.
+                                Blindly is a startup based in the Bay Area. I had the pleasure of working with 
+                                an energetic team striving to provide users with the best user experience possible.
                                 My time at Blindly was spent refactoring the UI to enhance both
                                 user experience and application performance.
                                 <br />
