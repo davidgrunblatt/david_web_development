@@ -27,7 +27,7 @@ const About = (props) => {
             <div className = 'about_skills margin'>
                 <div>
                     <h5>Skills</h5>
-                    <p><span>Stacks</span> MERN, MAMP</p>
+                    <p><span>Stacks:</span> MERN, MAMP</p>
                     <p><span>Front End:</span> HTML, CSS, SCSS, jQuery, JavaScript</p>
                     <p><span>Web Frameworks:</span> React.js, ASP.NET</p>
                     <p><span>Server Side:</span> Node.js, PHP</p>
