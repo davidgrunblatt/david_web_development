@@ -15,8 +15,8 @@ const About = (props) => {
                     by a business consulting firm where I work with a fantastic team of colleagues to create and maintain 
                     over 400+ websites and applications for a wide variety of clients.
                     <br/><br/>
-                    Today, I'm a passionate developer commited to life long learning, 
-                    constantlg trying to expand my skillset. Whether I'm building an API or a beautiful UI, I 
+                    Today, I'm a passionate developer committed to life long learning, 
+                    constantly trying to expand my skillset. Whether I'm building an API or a beautiful UI, I 
                     take great pride in hand crafting my work from wireframes to deployment. 
                     <br /><br />
                     When I'm not writing code I'm working on my hobbies. My other two passions in life aside from programming
