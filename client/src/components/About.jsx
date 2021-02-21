@@ -27,12 +27,9 @@ const About = (props) => {
             <div className = 'about_skills margin'>
                 <div>
                     <h5>Skills</h5>
-                    <p><span>Stacks:</span> MERN, MAMP</p>
-                    <p><span>Front End:</span> HTML, CSS, SCSS, jQuery, JavaScript</p>
-                    <p><span>Web Frameworks:</span> React.js, ASP.NET</p>
-                    <p><span>Server Side:</span> Node.js, PHP</p>
-                    <p><span>DB's:</span> SQL, NoSQL </p>
-                    <p><span>Other:</span> Python, AdobeXD, Adobe Photoshop</p>
+                    <p><span>Front End:</span> HTML, CSS, SCSS, Bootstrap, jQuery, JavaScript, TypeScript, React.js, PWA</p>
+                    <p><span>Back End:</span> Node.js, MongoDB, SQL</p>
+                    <p><span>Other:</span> Python, AdobeXD</p>
                 </div>
                 <div>
                     <img className = 'about_fullstack' src = {fullstack_img} alt = 'fullstack icon'/> 
