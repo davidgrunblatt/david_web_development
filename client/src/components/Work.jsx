@@ -46,7 +46,7 @@ class Work extends React.Component{
                 <section id="furelos">
                     <article className = 'project'>
                         <div>
-                            <a href ='https://www.furelos-online.com/' target = '_blank'>
+                            <a href ='#' target = '_blank'>
                                 <img className = 'portfolio_img' src = {require('../images/portfolio2.png')} alt = '' />
                             </a>
                         </div>
@@ -83,9 +83,9 @@ class Work extends React.Component{
                                 <li className = 'badge'>Mongoose</li>
                                 <li className = 'badge'>Heroku</li>
                             </ul>
-                            <a href = 'https://www.furelos-online.com/' target = '_blank'>
-                              <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                            </a>
+//                             <a href = 'https://www.furelos-online.com/' target = '_blank'>
+//                               <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+//                             </a>
                         </div>
                     </article>
                 </section>
@@ -94,7 +94,7 @@ class Work extends React.Component{
                 <section>
                     <article id = 'blindly' className = 'project'>
                         <div>
-                            <a target = '_blank' href="https://www.blindly.date/">
+                            <a target = '_blank' href="#">
                                 <img className = 'portfolio_img' src = {require('../images/blindlyScreen.png')} alt = '' />
                             </a>
                         </div>
@@ -115,9 +115,9 @@ class Work extends React.Component{
                                 user experience and application performance.
                                 <br />
                             </p>
-                            <a href = 'https://www.blindly.date/' target = '_blank'>
-                                <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
-                            </a>
+//                             <a href = 'https://www.blindly.date/' target = '_blank'>
+//                                 <img id = 'arrow' className = 'github' src = {require('../images/goto.png')} alt = 'visit page' />
+//                             </a>
                         </div>
                     </article>
                 </section>
